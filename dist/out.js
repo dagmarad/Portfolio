@@ -9645,19 +9645,18 @@ document.addEventListener('DOMContentLoaded', function () {
       key: 'render',
       value: function render() {
         return _react2.default.createElement(
-          'div',
-          null,
+          'article',
+          { className: 'containerHome' },
           _react2.default.createElement(
             'h1',
             null,
-            'Kilka s\u0142\xF3w o mnie'
+            'Cze\u015B\u0107, mam na imi\u0119 Dagmara'
           ),
           _react2.default.createElement(
             'p',
             null,
-            'Uko\u0144czy\u0142am kurs z Coders Lab i teraz szukam pracy. Znam r\xF3\u017Cne fajne technologie.'
-          ),
-          _react2.default.createElement('img', null)
+            'Niedawno uko\u0144czy\u0142am dwumiesi\u0119czny kurs Front-end Developer w Coders Lab i teraz szukam pracy. Znam r\xF3\u017Cne fajne technologie.'
+          )
         );
       }
     }]);
