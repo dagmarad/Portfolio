@@ -11,9 +11,22 @@ document.addEventListener('DOMContentLoaded', () => {
       </article>
     }
   }
+  class Menu extends React.Component{
+    render(){
+      return (
+        <ul className="menuUl">
+          <li>Home</li>
+          <li>Portfolio</li>
+          <li>Co umiem</li>
+        </ul>)
+    }
+  }
   class App extends React.Component {
     render(){
-      return <Container/>
+      return <div>
+        <Menu />
+       <Container/>
+       </div>
     }
   }
 
