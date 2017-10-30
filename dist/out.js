@@ -9656,6 +9656,11 @@ document.addEventListener('DOMContentLoaded', function () {
             'p',
             null,
             'Niedawno uko\u0144czy\u0142am dwumiesi\u0119czny kurs Front-end Developer w Coders Lab i teraz szukam pracy. Znam r\xF3\u017Cne fajne technologie.'
+          ),
+          _react2.default.createElement(
+            'span',
+            { className: 'pointer' },
+            '>'
           )
         );
       }
