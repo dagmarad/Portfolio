@@ -9714,38 +9714,42 @@ document.addEventListener('DOMContentLoaded', function () {
       key: 'render',
       value: function render() {
         return _react2.default.createElement(
-          'ul',
-          { className: 'portfolioUl' },
-          ' ',
+          'div',
+          { className: 'portfolioDiv' },
           _react2.default.createElement(
-            'b',
-            null,
-            'Moje projekty'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Cat Shelter App'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Nasa API'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Wedding page'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'To do list'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Daily Expense App'
+            'ul',
+            { className: 'portfolioUl' },
+            ' ',
+            _react2.default.createElement(
+              'b',
+              null,
+              'Moje projekty'
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
+              'Cat Shelter App'
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
+              'Nasa API'
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
+              'Wedding page'
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
+              'To do list'
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
+              'Daily Expense App'
+            )
           )
         );
       }

@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   class Portfolio extends React.Component{
     render(){
-      return (
+      return (<div className="portfolioDiv">
         <ul className="portfolioUl"> <b>Moje projekty</b>
           <li>Cat Shelter App</li>
           <li>Nasa API</li>
@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <li>To do list</li>
           <li>Daily Expense App</li>
         </ul>
+      </div>
       )
     }
   }
