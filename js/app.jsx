@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+
 document.addEventListener('DOMContentLoaded', () => {
   class Home extends React.Component{
     render(){
@@ -39,6 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
   class Skills extends React.Component{
     render(){
       return (<div className="skillsDiv">
+
 
 
           <div className="skillsDivExample">HTML</div>
