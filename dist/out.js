@@ -9647,6 +9647,7 @@ document.addEventListener('DOMContentLoaded', function () {
         return _react2.default.createElement(
           'div',
           { className: 'homeDiv' },
+          _react2.default.createElement(Menu, null),
           _react2.default.createElement(
             'h1',
             null,
@@ -9783,34 +9784,49 @@ document.addEventListener('DOMContentLoaded', function () {
           'div',
           { className: 'skillsDiv' },
           _react2.default.createElement(
-            'ul',
-            { className: 'skillsUl' },
-            'Moje umiej\u0119tno\u015Bci',
-            _react2.default.createElement(
-              'li',
-              null,
-              'HTML'
-            ),
-            _react2.default.createElement(
-              'li',
-              null,
-              'CSS'
-            ),
-            _react2.default.createElement(
-              'li',
-              null,
-              'Javascript'
-            ),
-            _react2.default.createElement(
-              'li',
-              null,
-              'Jquery'
-            ),
-            _react2.default.createElement(
-              'li',
-              null,
-              'React'
-            )
+            'div',
+            { className: 'skillsDivExample' },
+            'HTML'
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'skillsDivExample' },
+            'CSS'
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'skillsDivExample' },
+            'Javascript'
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'skillsDivExample' },
+            'Jquery'
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'skillsDivExample' },
+            'React'
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'skillsDivExample' },
+            'Git'
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'skillsDivExample' },
+            'Gulp'
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'skillsDivExample' },
+            'Webpack'
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'skillsDivExample' },
+            'SASS'
           )
         );
       }
@@ -9834,7 +9850,6 @@ document.addEventListener('DOMContentLoaded', function () {
         return _react2.default.createElement(
           'div',
           null,
-          _react2.default.createElement(Menu, null),
           _react2.default.createElement(Home, null),
           _react2.default.createElement(Portfolio, null),
           _react2.default.createElement(Skills, null)

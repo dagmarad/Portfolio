@@ -1,3 +1,4 @@
+@import "variables";
 html{
   background-color: #FAFAFA;
   font-size:16px;
@@ -26,5 +27,8 @@ body{
 .pointer{
   cursor: pointer;
   transform:rotate(90deg);
-
+}
+.skillsDiv{
+  display: flex;
+  flex-direction: row
 }
