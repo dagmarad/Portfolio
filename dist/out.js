@@ -9632,21 +9632,21 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 document.addEventListener('DOMContentLoaded', function () {
-  var Container = function (_React$Component) {
-    _inherits(Container, _React$Component);
+  var Home = function (_React$Component) {
+    _inherits(Home, _React$Component);
 
-    function Container() {
-      _classCallCheck(this, Container);
+    function Home() {
+      _classCallCheck(this, Home);
 
-      return _possibleConstructorReturn(this, (Container.__proto__ || Object.getPrototypeOf(Container)).apply(this, arguments));
+      return _possibleConstructorReturn(this, (Home.__proto__ || Object.getPrototypeOf(Home)).apply(this, arguments));
     }
 
-    _createClass(Container, [{
+    _createClass(Home, [{
       key: 'render',
       value: function render() {
         return _react2.default.createElement(
-          'article',
-          { className: 'containerHome' },
+          'div',
+          { className: 'homeDiv' },
           _react2.default.createElement(
             'h1',
             null,
@@ -9670,7 +9670,7 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     }]);
 
-    return Container;
+    return Home;
   }(_react2.default.Component);
 
   var Menu = function (_React$Component2) {
@@ -9767,8 +9767,60 @@ document.addEventListener('DOMContentLoaded', function () {
     return Portfolio;
   }(_react2.default.Component);
 
-  var App = function (_React$Component4) {
-    _inherits(App, _React$Component4);
+  var Skills = function (_React$Component4) {
+    _inherits(Skills, _React$Component4);
+
+    function Skills() {
+      _classCallCheck(this, Skills);
+
+      return _possibleConstructorReturn(this, (Skills.__proto__ || Object.getPrototypeOf(Skills)).apply(this, arguments));
+    }
+
+    _createClass(Skills, [{
+      key: 'render',
+      value: function render() {
+        return _react2.default.createElement(
+          'div',
+          { className: 'skillsDiv' },
+          _react2.default.createElement(
+            'ul',
+            { className: 'skillsUl' },
+            'Moje umiej\u0119tno\u015Bci',
+            _react2.default.createElement(
+              'li',
+              null,
+              'HTML'
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
+              'CSS'
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
+              'Javascript'
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
+              'Jquery'
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
+              'React'
+            )
+          )
+        );
+      }
+    }]);
+
+    return Skills;
+  }(_react2.default.Component);
+
+  var App = function (_React$Component5) {
+    _inherits(App, _React$Component5);
 
     function App() {
       _classCallCheck(this, App);
@@ -9783,8 +9835,9 @@ document.addEventListener('DOMContentLoaded', function () {
           'div',
           null,
           _react2.default.createElement(Menu, null),
-          _react2.default.createElement(Container, null),
-          _react2.default.createElement(Portfolio, null)
+          _react2.default.createElement(Home, null),
+          _react2.default.createElement(Portfolio, null),
+          _react2.default.createElement(Skills, null)
         );
       }
     }]);

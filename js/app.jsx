@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 document.addEventListener('DOMContentLoaded', () => {
-  class Container extends React.Component{
+  class Home extends React.Component{
     render(){
-      return <article className="containerHome">
+      return <div className="homeDiv">
       <h1>Cześć, mam na imię Dagmara</h1>
       <p>Niedawno ukończyłam dwumiesięczny kurs Front-end Developer w Coders Lab i teraz szukam pracy. Znam różne fajne technologie.</p>
       <div className="pointer"><b>&gt;</b></div>
-      </article>
+      </div>
     }
   }
   class Menu extends React.Component{
@@ -35,12 +35,26 @@ document.addEventListener('DOMContentLoaded', () => {
       )
     }
   }
+  class Skills extends React.Component{
+    render(){
+      return <div className="skillsDiv">
+        <ul className="skillsUl">Moje umiejętności
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>Jquery</li>
+          <li>React</li>
+        </ul>
+      </div>
+    }
+  }
   class App extends React.Component {
     render(){
       return <div>
         <Menu />
-       <Container/>
+       <Home/>
        <Portfolio/>
+       <Skills/>
        </div>
     }
   }

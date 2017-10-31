@@ -19,8 +19,9 @@ body{
   display: inline;
   margin-left:10px;
 }
-article, .portfolioDiv{
+.homeDiv, .portfolioDiv, .skillsDiv{
   height:100vh;
+  border:1px solid red;
 }
 .pointer{
   cursor: pointer;
