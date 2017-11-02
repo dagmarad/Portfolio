@@ -5,11 +5,13 @@ import ReactDOM from 'react-dom';
     render(){
       return (
         <ul className="menuUl">
-          <li>Home</li>
-          <li>Portfolio</li>
-          <li>Co umiem</li>
+          <li><a href="#homeDiv">Home</a></li>
+          <li><a href="#portfolioDiv">Portfolio</a></li>
+          <li><a href="#skillsDiv">Co umiem</a></li>
+          <li><a href="#contactDiv">Kontakt</a></li>
         </ul>)
     }
   }
+
 
     export default Menu;

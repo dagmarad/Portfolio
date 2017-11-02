@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 
 class Skills extends React.Component{
   render(){
-    return (<div className="skillsDiv">
+    return (<div className="skillsDiv" id="skillsDiv">
+    <h2> Moje umiejętności</h2>
         <div className="skillsDivExample"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="50" height="50"><path d="M41 5H7l3 34 14 4 14-4z" fill="#E65100"/><path d="M24 8v31.9l11.2-3.2L37.7 8z" fill="#FF6D00"/><path d="M24 25v-4h8.6l-.7 11.5-7.9 2.6v-4.2l4.1-1.4.3-4.5zm8.9-8l.3-4H24v4z" fill="#FFF"/><path d="M24 30.9v4.2l-7.9-2.6-.4-5.5h4l.2 2.5zM19.1 17H24v-4h-9.1l.7 12H24v-4h-4.6z" fill="#EEE"/></svg>HTML</div>
 
         <div className="skillsDivExample"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="50" height="50"><path d="M41 5H7l3 34 14 4 14-4z" fill="#0277BD"/><path d="M24 8v31.9l11.2-3.2L37.7 8z" fill="#039BE5"/><path d="M33.1 13H24v4h4.9l-.3 4H24v4h4.4l-.3 4.5-4.1 1.4v4.2l7.9-2.6.7-11.5z" fill="#FFF"/><path d="M24 13v4h-8.9l-.3-4zm-4.6 8l.2 4H24v-4zm.4 6h-4l.3 5.5 7.9 2.6v-4.2l-4.1-1.4z" fill="#EEE"/></svg>CSS</div>

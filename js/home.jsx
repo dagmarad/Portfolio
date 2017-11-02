@@ -12,8 +12,8 @@ import Menu from './menu.jsx';
         <p>Niedawno ukończyłam dwumiesięczny kurs Front-end Developer w Coders Lab i teraz szukam pracy. Znam różne fajne technologie.</p>
           <div className="pointer"><b>&gt;</b></div>
           <div className="homeDivSocial">
-            <SocialIcon url="http://linkedin.com/in/jaketrent" />
-            <SocialIcon url="http://github.com/in/jaketrent" />
+            <SocialIcon url="http://linkedin.com/in/in/dagmara-gruszczynska/" />
+            <SocialIcon url="http://github.com/dagmarad" />
           </div>
     </div>)
     }

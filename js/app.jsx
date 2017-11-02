@@ -5,7 +5,7 @@ import Home from './home.jsx';
 import Menu from './menu.jsx';
 import Portfolio from './portfolio.jsx';
 import Skills from './skills.jsx';
-
+import Contact from './contact.jsx';
 document.addEventListener('DOMContentLoaded', () => {
 
 
@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
        <Home/>
        <Portfolio/>
       <Skills/>
+      <Contact/>
 
        </div>
     }
