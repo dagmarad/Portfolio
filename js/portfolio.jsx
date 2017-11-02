@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 class Portfolio extends React.Component{
   render(){
-    return (<div className="portfolioDiv" id="portfolioDiv">
+    return (<div className="portfolioDiv container" id="portfolioDiv">
       <ul className="portfolioUl"> <b>Moje projekty</b>
         <li>Cat Shelter App</li>
         <li>Nasa API</li>

@@ -13,7 +13,8 @@ body{
   padding:0;
   min-height: 100vh;
 }
-.containerHome{
+
+.container{
   max-width:1200px;
 }
 .menuUl li{
@@ -21,9 +22,12 @@ body{
   margin-left:10px;
 }
 
-.homeDiv, .portfolioDiv, .skillsDiv, .contactDiv {
+.homeDiv, .portfolioDiv, #skillsDiv, .contactDiv {
   height:100vh;
   border:1px solid red;
+  h2{
+    ;
+  }
 }
 .pointer{
   cursor: pointer;
@@ -31,5 +35,15 @@ body{
 }
 .skillsDiv{
   display: flex;
-  flex-direction: row
+  flex-direction: row;
+  flex-wrap:wrap;
+  .skillsDivExample{
+    min-width:33%;
+    
+    min-height:150px;
+  }
+
+  .skillsh2{
+    text-align:center;
+  }
 }
