@@ -2,6 +2,7 @@
 html{
   font-size:16px;
   box-sizing: border-box;
+  font-family: Raleway;
 }
 body{
   display: flex;
@@ -23,8 +24,12 @@ body{
 position:fixed;
 max-width:1200px;
 width:96%;
-background-color: #F9F0EA
-
+background-color: #F9F0EA;
+.menuDiv{
+color :#FF584C;
+font-size:2rem;
+font-weight:bold;
+}
 }
 p{
   max-width:1000px;

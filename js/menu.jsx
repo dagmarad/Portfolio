@@ -12,8 +12,8 @@ import { SocialIcon } from 'react-social-icons';
           <ul className="menuUl">
             <li><a href="#homeDiv">Home</a></li>
             <li><a href="#portfolioDiv">Portfolio</a></li>
-            <li><a href="#skillsDiv">Co umiem</a></li>
-            <li><a href="#contactDiv">Kontakt</a></li>
+            <li><a href="#skillsDiv">Skills</a></li>
+            <li><a href="#contactDiv">Contact</a></li>
           </ul>
         </div>
         <div className="menuRightDiv">
