@@ -13,21 +13,22 @@ body{
   padding:0;
   min-height: 100vh;
 }
+#app{
+  max-width:1200px;
+  width:96%;
+}
 
 .container{
-  max-width:1200px;
+  border:1px solid green;
 }
-.menuUl li{
-  display: inline;
-  margin-left:10px;
+p{
+  max-width:1000px;
+  margin: 0 auto;
 }
+
 
 .homeDiv, .portfolioDiv, #skillsDiv, .contactDiv {
   height:100vh;
-  border:1px solid red;
-  h2{
-    ;
-  }
 }
 .pointer{
   cursor: pointer;
@@ -39,11 +40,47 @@ body{
   flex-wrap:wrap;
   .skillsDivExample{
     min-width:33%;
-    
     min-height:150px;
+    margin-top:25px;
   }
-
+}
   .skillsh2{
     text-align:center;
   }
-}
+
+  .menuDiv{
+    display:flex;
+    li{
+      text-decoration: none;
+      display:inline-block;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    ul{
+      padding:0;
+      margin: auto;
+
+    }
+  }
+    .menuLeftDiv{
+      justify-content: flex-start;
+      min-width:20%;
+    }
+    .menuCenterDiv{
+      justify-content: center;
+      min-width:60%;
+      line-height: 2em;
+      li{
+        line-height: 2em;
+      }
+    }
+
+    .menuRightDiv{
+      justify-content: flex-end;
+      align-items: flex-end;
+      min-width:20%;
+
+      li{
+        float:right;
+      }
+    }
