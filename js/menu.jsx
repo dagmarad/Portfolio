@@ -5,7 +5,8 @@ import { SocialIcon } from 'react-social-icons';
   class Menu extends React.Component{
     render(){
       return (
-    <div className="container menuDiv">
+    <div className="containerMenu ">
+    <div className="menuDiv">
         <div className="menuLeftDiv"></div>
         <div className="menuCenterDiv">
           <ul className="menuUl">
@@ -17,11 +18,11 @@ import { SocialIcon } from 'react-social-icons';
         </div>
         <div className="menuRightDiv">
           <ul className="socialUl">
-            <li><SocialIcon url="http://linkedin.com/in/in/dagmara-gruszczynska/" /></li>
-            <li><SocialIcon className="socialIcon" url="http://github.com/dagmarad" /></li>
+            <li><div className="SocialIcon"><SocialIcon url="http://linkedin.com/in/dagmara-gruszczynska/" /></div></li>
+            <li><div className="SocialIcon"><SocialIcon className="socialIcon" url="http://github.com/dagmarad" /></div></li>
           </ul>
         </div>
-
+      </div>
     </div>)
     }
   }

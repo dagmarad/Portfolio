@@ -1,6 +1,5 @@
 @import "variables";
 html{
-  background-color: #FAFAFA;
   font-size:16px;
   box-sizing: border-box;
 }
@@ -12,14 +11,20 @@ body{
   margin: 0;
   padding:0;
   min-height: 100vh;
+  background-color: #F9F0EA
 }
 #app{
   max-width:1200px;
   width:96%;
+  background-color: rgb(226, 226, 226)
 }
 
-.container{
-  border:1px solid green;
+.containerMenu{
+position:fixed;
+max-width:1200px;
+width:96%;
+background-color: #F9F0EA
+
 }
 p{
   max-width:1000px;
@@ -27,9 +32,12 @@ p{
 }
 
 
-.homeDiv, .portfolioDiv, #skillsDiv, .contactDiv {
+ .homeDiv, .portfolioDiv, #skillsDiv, .contactDiv {
   height:100vh;
+
+
 }
+
 .pointer{
   cursor: pointer;
   transform:rotate(90deg);
@@ -50,6 +58,8 @@ p{
 
   .menuDiv{
     display:flex;
+  }
+
     li{
       text-decoration: none;
       display:inline-block;
@@ -61,7 +71,7 @@ p{
       margin: auto;
 
     }
-  }
+
     .menuLeftDiv{
       justify-content: flex-start;
       min-width:20%;
@@ -71,10 +81,10 @@ p{
       min-width:60%;
       line-height: 2em;
       li{
+
         line-height: 2em;
       }
     }
-
     .menuRightDiv{
       justify-content: flex-end;
       align-items: flex-end;
@@ -84,3 +94,16 @@ p{
         float:right;
       }
     }
+.contactDiv, .homeDivInfo{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  height:100vh;
+  margin:0px;
+  padding:0px;
+}
+.homeDivInfoInner{
+  max-width: 600px;
+
+}
