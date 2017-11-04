@@ -26,7 +26,7 @@ max-width:1200px;
 width:96%;
 background-color: #F9F0EA;
 .menuDiv{
-color :#FF584C;
+
 font-size:2rem;
 font-weight:bold;
 }
@@ -39,8 +39,6 @@ p{
 
  .homeDiv, .portfolioDiv, #skillsDiv, .contactDiv {
   height:100vh;
-
-
 }
 
 .pointer{
@@ -63,8 +61,14 @@ p{
 
   .menuDiv{
     display:flex;
+    a{
+      color:#FF584C;
+      text-decoration:none;
+      &:active, &.active, &:hover{
+        color:#b23d35;
+      }
+    }
   }
-
     li{
       text-decoration: none;
       display:inline-block;
