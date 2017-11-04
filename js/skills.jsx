@@ -20,7 +20,7 @@ class Skills extends React.Component{
 
         <div className="skillsDivExample">{icons.sass}<p>SASS</p></div>
         <div className="skillsDivExample"><p>Webpack</p></div>
-        <div className="skillsDivExample"><p>GIT</p></div>
+        <div className="skillsDivExample"><p>{icons.git}GIT</p></div>
         <div className="skillsDivExample"><p>ECMASCRIPT6</p></div>
       </div>
     </div>

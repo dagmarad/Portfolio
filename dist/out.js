@@ -1150,16 +1150,6 @@ module.exports = ReactComponentTreeHook;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-module.exports = __webpack_require__(20);
-
-
-/***/ }),
-/* 9 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/**
  * Copyright (c) 2016-present, Facebook, Inc.
  *
@@ -1182,6 +1172,16 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = { debugTool: debugTool };
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+
+/***/ }),
+/* 9 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = __webpack_require__(20);
+
 
 /***/ }),
 /* 10 */
@@ -1244,7 +1244,7 @@ var _prodInvariant = __webpack_require__(3),
     _assign = __webpack_require__(4);
 
 var CallbackQueue = __webpack_require__(72);
-var PooledClass = __webpack_require__(16);
+var PooledClass = __webpack_require__(15);
 var ReactFeatureFlags = __webpack_require__(77);
 var ReactReconciler = __webpack_require__(19);
 var Transaction = __webpack_require__(32);
@@ -1529,7 +1529,7 @@ module.exports = ReactCurrentOwner;
 
 var _assign = __webpack_require__(4);
 
-var PooledClass = __webpack_require__(16);
+var PooledClass = __webpack_require__(15);
 
 var emptyFunction = __webpack_require__(10);
 var warning = __webpack_require__(2);
@@ -2005,16 +2005,6 @@ module.exports = DOMProperty;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-module.exports = __webpack_require__(164);
-
-
-/***/ }),
-/* 16 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -2127,7 +2117,7 @@ module.exports = PooledClass;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 17 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2472,6 +2462,16 @@ module.exports = ReactElement;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
+/* 17 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = __webpack_require__(164);
+
+
+/***/ }),
 /* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2608,7 +2608,7 @@ module.exports = DOMLazyTree;
 
 
 var ReactRef = __webpack_require__(193);
-var ReactInstrumentation = __webpack_require__(9);
+var ReactInstrumentation = __webpack_require__(8);
 
 var warning = __webpack_require__(2);
 
@@ -2782,7 +2782,7 @@ var _assign = __webpack_require__(4);
 var ReactBaseClasses = __webpack_require__(94);
 var ReactChildren = __webpack_require__(228);
 var ReactDOMFactories = __webpack_require__(229);
-var ReactElement = __webpack_require__(17);
+var ReactElement = __webpack_require__(16);
 var ReactPropTypes = __webpack_require__(231);
 var ReactVersion = __webpack_require__(233);
 
@@ -4877,7 +4877,7 @@ module.exports = shallowEqual;
 var DOMLazyTree = __webpack_require__(18);
 var Danger = __webpack_require__(156);
 var ReactDOMComponentTree = __webpack_require__(5);
-var ReactInstrumentation = __webpack_require__(9);
+var ReactInstrumentation = __webpack_require__(8);
 
 var createMicrosoftUnsafeLocalFunction = __webpack_require__(50);
 var setInnerHTML = __webpack_require__(34);
@@ -5695,7 +5695,7 @@ var _prodInvariant = __webpack_require__(3);
 
 var ReactCurrentOwner = __webpack_require__(12);
 var ReactInstanceMap = __webpack_require__(26);
-var ReactInstrumentation = __webpack_require__(9);
+var ReactInstrumentation = __webpack_require__(8);
 var ReactUpdates = __webpack_require__(11);
 
 var invariant = __webpack_require__(1);
@@ -6705,11 +6705,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(8);
+var _react = __webpack_require__(9);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(15);
+var _reactDom = __webpack_require__(17);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -7277,7 +7277,7 @@ var _prodInvariant = __webpack_require__(3);
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var PooledClass = __webpack_require__(16);
+var PooledClass = __webpack_require__(15);
 
 var invariant = __webpack_require__(1);
 
@@ -7397,7 +7397,7 @@ module.exports = PooledClass.addPoolingTo(CallbackQueue);
 
 var DOMProperty = __webpack_require__(14);
 var ReactDOMComponentTree = __webpack_require__(5);
-var ReactInstrumentation = __webpack_require__(9);
+var ReactInstrumentation = __webpack_require__(8);
 
 var quoteAttributeValueForBrowser = __webpack_require__(219);
 var warning = __webpack_require__(2);
@@ -8127,7 +8127,7 @@ var ReactDOMContainerInfo = __webpack_require__(166);
 var ReactDOMFeatureFlags = __webpack_require__(168);
 var ReactFeatureFlags = __webpack_require__(77);
 var ReactInstanceMap = __webpack_require__(26);
-var ReactInstrumentation = __webpack_require__(9);
+var ReactInstrumentation = __webpack_require__(8);
 var ReactMarkupChecksum = __webpack_require__(188);
 var ReactReconciler = __webpack_require__(19);
 var ReactUpdateQueue = __webpack_require__(49);
@@ -9464,7 +9464,7 @@ var _objectWithoutProperties2 = __webpack_require__(23);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
-var _react = __webpack_require__(8);
+var _react = __webpack_require__(9);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -9720,7 +9720,7 @@ module.exports = REACT_ELEMENT_TYPE;
 
 var ReactCurrentOwner = __webpack_require__(12);
 var ReactComponentTreeHook = __webpack_require__(7);
-var ReactElement = __webpack_require__(17);
+var ReactElement = __webpack_require__(16);
 
 var checkReactTypeSpec = __webpack_require__(234);
 
@@ -10111,13 +10111,17 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(8);
+var _react = __webpack_require__(9);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(15);
+var _reactDom = __webpack_require__(17);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
+
+var _icons = __webpack_require__(104);
+
+var _icons2 = _interopRequireDefault(_icons);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -10148,11 +10152,13 @@ var Contact = function (_React$Component) {
           _react2.default.createElement(
             'h3',
             null,
+            _icons2.default.message,
             'Would you like to contact me?'
           ),
           _react2.default.createElement(
             'p',
             null,
+            _icons2.default.phone,
             'Please call me at 609094679 '
           ),
           _react2.default.createElement(
@@ -10183,11 +10189,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(8);
+var _react = __webpack_require__(9);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(15);
+var _reactDom = __webpack_require__(17);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -10272,11 +10278,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(8);
+var _react = __webpack_require__(9);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(15);
+var _reactDom = __webpack_require__(17);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -10360,11 +10366,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(8);
+var _react = __webpack_require__(9);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(15);
+var _reactDom = __webpack_require__(17);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -10488,6 +10494,7 @@ var Skills = function (_React$Component) {
                                                 _react2.default.createElement(
                                                         'p',
                                                         null,
+                                                        _icons2.default.git,
                                                         'GIT'
                                                 )
                                         ),
@@ -10519,11 +10526,11 @@ exports.default = Skills;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(8);
+var _react = __webpack_require__(9);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(15);
+var _reactDom = __webpack_require__(17);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -10594,11 +10601,11 @@ document.addEventListener('DOMContentLoaded', function () {
 "use strict";
 
 
-var _react = __webpack_require__(8);
+var _react = __webpack_require__(9);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(15);
+var _reactDom = __webpack_require__(17);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -10646,8 +10653,51 @@ var icons = {
     'svg',
     { className: 'iconStyle', xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 547.8 410.6', width: '50', height: '50' },
     _react2.default.createElement('path', { fill: '#CD6799', d: 'M471.4 236c-19.1.1-35.7 4.7-49.6 11.5-5.1-10.1-10.2-19.1-11.1-25.7-1-7.7-2.2-12.4-1-21.6 1.2-9.2 6.6-22.3 6.5-23.3s-1.2-5.7-12.2-5.8c-11-.1-20.5 2.1-21.6 5-1.1 2.9-3.2 9.5-4.6 16.3-1.9 10-22 45.7-33.5 64.4-3.7-7.3-6.9-13.7-7.6-18.8-1-7.7-2.2-12.4-1-21.6 1.2-9.2 6.6-22.3 6.5-23.3-.1-1-1.2-5.7-12.2-5.8-11-.1-20.5 2.1-21.6 5-1.1 2.9-2.3 9.7-4.6 16.3-2.3 6.6-29 66.2-36 81.6-3.6 7.9-6.7 14.2-8.9 18.5s-.1.3-.4.8c-1.9 3.7-3 5.7-3 5.7v.1c-1.5 2.7-3.1 5.2-3.9 5.2-.6 0-1.7-7.2.2-17 4-20.7 13.5-52.9 13.4-54 0-.6 1.8-6.2-6.2-9.1-7.8-2.9-10.6 1.9-11.3 1.9-.7 0-1.2 1.7-1.2 1.7s8.7-36.2-16.6-36.2c-15.8 0-37.6 17.3-48.4 32.9-6.8 3.7-21.3 11.6-36.8 20.1-5.9 3.3-12 6.6-17.7 9.7-.4-.4-.8-.9-1.2-1.3-30.6-32.7-87.2-55.8-84.8-99.7.9-16 6.4-58 108.7-109 84.2-41.5 151.2-30 162.8-4.5 16.6 36.4-35.9 104-122.9 113.8-33.2 3.7-50.6-9.1-55-13.9-4.6-5-5.3-5.3-7-4.3-2.8 1.5-1 6 0 8.6 2.6 6.8 13.3 18.8 31.4 24.7 16 5.2 54.9 8.1 102-10.1 52.7-20.4 93.9-77.1 81.8-124.6C330.7 2 250.7-13.9 175 13 130 29 81.2 54.2 46.1 87 4.4 126-2.2 159.9.5 174.1c9.7 50.4 79.2 83.2 107 107.5-1.4.8-2.7 1.5-3.8 2.1-13.9 6.9-66.9 34.6-80.1 63.9-15 33.2 2.4 57 13.9 60.2 35.7 9.9 72.4-7.9 92.1-37.3 19.7-29.4 17.3-67.6 8.2-85.1-.1-.2-.2-.4-.4-.6 3.6-2.1 7.3-4.3 10.9-6.4 7.1-4.2 14.1-8.1 20.1-11.3-3.4 9.3-5.9 20.4-7.1 36.4-1.5 18.8 6.2 43.2 16.3 52.8 4.5 4.2 9.8 4.3 13.2 4.3 11.8 0 17.1-9.8 23-21.4 7.2-14.2 13.7-30.7 13.7-30.7s-8.1 44.6 13.9 44.6c8 0 16.1-10.4 19.7-15.7v.1s.2-.3.6-1l1.3-2.1v-.2c3.2-5.6 10.4-18.3 21.1-39.4 13.8-27.2 27.1-61.2 27.1-61.2s1.2 8.3 5.3 22.1c2.4 8.1 7.4 17 11.4 25.6-3.2 4.5-5.2 7-5.2 7l.1.1c-2.6 3.4-5.4 7.1-8.5 10.7-10.9 13-23.9 27.9-25.7 32.2-2.1 5.1-1.6 8.8 2.4 11.8 2.9 2.2 8.1 2.5 13.4 2.2 9.8-.7 16.7-3.1 20.1-4.6 5.3-1.9 11.5-4.8 17.3-9.1 10.7-7.9 17.2-19.2 16.6-34.1-.3-8.2-3-16.4-6.3-24.1 1-1.4 1.9-2.8 2.9-4.2 16.9-24.7 30-51.8 30-51.8s1.2 8.3 5.3 22.1c2 7 6.1 14.6 9.7 22-15.9 12.9-25.7 27.9-29.2 37.7-6.3 18.2-1.4 26.4 7.9 28.3 4.2.9 10.2-1.1 14.6-3 5.6-1.8 12.2-4.9 18.5-9.5 10.7-7.9 21-18.9 20.4-33.8-.3-6.8-2.1-13.5-4.6-20 13.5-5.6 30.9-8.7 53.1-6.1 47.6 5.6 57 35.3 55.2 47.8-1.8 12.5-11.8 19.3-15.1 21.4-3.3 2.1-4.4 2.8-4.1 4.3.4 2.2 2 2.1 4.8 1.7 3.9-.7 25-10.1 25.9-33.1 1.5-29.4-26.5-61.5-76-61.2zM104.2 359.8C88.4 377 66.4 383.5 56.9 378c-10.2-5.9-6.2-31.3 13.2-49.5 11.8-11.1 27-21.4 37.1-27.7 2.3-1.4 5.7-3.4 9.8-5.9.7-.4 1.1-.6 1.1-.6l2.4-1.5c7.1 26 .3 48.9-16.3 67zm115-78.2c-5.5 13.4-17 47.7-24 45.8-6-1.6-9.7-27.6-1.2-53.3 4.3-12.9 13.4-28.3 18.7-34.3 8.6-9.6 18.1-12.8 20.4-8.9 2.9 5.1-10.5 42.3-13.9 50.7zm94.9 45.4c-2.3 1.2-4.5 2-5.5 1.4-.7-.4 1-2 1-2s11.9-12.8 16.6-18.6c2.7-3.4 5.9-7.4 9.3-11.9v1.3c0 15.3-14.8 25.6-21.4 29.8zm73.2-16.7c-1.7-1.2-1.4-5.2 4.3-17.7 2.2-4.9 7.4-13.1 16.3-21 1 3.2 1.7 6.3 1.6 9.2-.1 19.3-13.9 26.5-22.2 29.5z' })
+  ),
+  message: _react2.default.createElement(
+    'svg',
+    { xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 64 64', width: '50', height: '50' },
+    _react2.default.createElement('path', { d: 'M4.9 10.87H59c1.1 0 2 .9 2 2v36.36c0 1.1-.9 2-2 2H4.9c-1.1 0-2-.9-2-2V12.87c0-1.1.9-2 2-2z', fill: '#FAEFDE' }),
+    _react2.default.createElement('path', { d: 'M61 14L32 34 3 14v-1c0-1.1.9-2 2-2h54c1.1 0 2 .9 2 2z', fill: '#FFF7F0' }),
+    _react2.default.createElement('path', { d: 'M6.9 46H57c2.2 0 4 1.8 4 4v.23c0 .55-.45 1-1 1H3.9c-.56 0-1-.45-1-1V50c0-2.2 1.78-4 4-4z', fill: '#EFD8BE' }),
+    _react2.default.createElement('path', { d: 'M59 15H4.9c-1.1 0-2-.9-2-2s.9-2 2-2H59c1.1 0 2 .9 2 2s-.9 2-2 2z', fill: '#FFF' }),
+    _react2.default.createElement('path', { d: 'M59 10H5c-1.66 0-3 1.34-3 3v36c0 1.66 1.34 3 3 3h54c1.66 0 3-1.34 3-3V13c0-1.66-1.34-3-3-3zM5 12h54c.55 0 1 .45 1 1v.5L33.17 32.9c-.7.5-1.65.5-2.35 0L4 13.5V13c0-.55.45-1 1-1zm54 38H5c-.55 0-1-.45-1-1v-5.44l17.57-10.7c.36-.16.6-.5.62-.9 0-.4-.2-.75-.56-.92-.34-.18-.77-.14-1.07.1L4 41.22V16l25.65 18.54c1.4 1 3.3 1 4.7 0L60 16v25.22L43.47 31.15c-.3-.24-.72-.28-1.08-.1-.35.17-.56.54-.55.93.02.4.26.73.62.88L60 43.56V49c0 .55-.45 1-1 1z', fill: '#8D6C9F' }),
+    _react2.default.createElement('path', { d: 'M12 44c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1zM7 44c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1zM17 44c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1zM22 44c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1zM27 44c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1zM32 44c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1zM37 44c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1zM42 44c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1zM47 44c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1zM52 44c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1zM57 44c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1z', fill: '#8D6C9F' })
+  ),
+  phone: _react2.default.createElement(
+    'svg',
+    { xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 64 64', width: '50', height: '50' },
+    _react2.default.createElement(
+      'linearGradient',
+      { id: 'a', gradientUnits: 'userSpaceOnUse', x1: '20.55', y1: '5.85', x2: '20.55', y2: '21.1', spreadMethod: 'reflect' },
+      _react2.default.createElement('stop', { offset: '0', 'stop-color': '#6DC7FF' }),
+      _react2.default.createElement('stop', { offset: '1', 'stop-color': '#E6ABFF' })
+    ),
+    _react2.default.createElement('path', { d: 'M23.04 19.32L14.72 11c-.92-.92-.92-2.4 0-3.33.92-.92 2.4-.92 3.33 0L26.37 16c.92.9.92 2.4 0 3.32-.92.9-2.4.9-3.33 0z', fill: 'url(#a)' }),
+    _react2.default.createElement(
+      'linearGradient',
+      { id: 'b', gradientUnits: 'userSpaceOnUse', x1: '50.49', y1: '35.98', x2: '50.49', y2: '50.49', spreadMethod: 'reflect' },
+      _react2.default.createElement('stop', { offset: '0', 'stop-color': '#6DC7FF' }),
+      _react2.default.createElement('stop', { offset: '1', 'stop-color': '#E6ABFF' })
+    ),
+    _react2.default.createElement('path', { d: 'M53 49.26l-8.33-8.32c-.92-.92-.92-2.4 0-3.32.92-.92 2.4-.92 3.33 0l8.32 8.3c.92.93.92 2.42 0 3.34-.92.92-2.4.92-3.33 0z', fill: 'url(#b)' }),
+    _react2.default.createElement(
+      'linearGradient',
+      { id: 'c', gradientUnits: 'userSpaceOnUse', x1: '32', y1: '4.98', x2: '32', y2: '60.58', spreadMethod: 'reflect' },
+      _react2.default.createElement('stop', { offset: '0', 'stop-color': '#1A6DFF' }),
+      _react2.default.createElement('stop', { offset: '1', 'stop-color': '#C822FF' })
+    ),
+    _react2.default.createElement('path', { d: 'M57.02 45.23L48.7 36.9c-1.26-1.26-3.47-1.26-4.74 0l-5.46 5.47c-.4.42-1.04.52-1.54.27-6.83-3.53-12.08-8.78-15.6-15.6-.27-.5-.16-1.14.25-1.55L27.1 20c1.3-1.3 1.3-3.43 0-4.74l-8.32-8.32c-1.27-1.27-3.48-1.27-4.74 0L9.07 11.9C5.67 15.3 5 20.54 7.5 24.6c8 13.15 18.73 23.88 31.88 31.9 1.65 1 3.5 1.5 5.33 1.5 2.7 0 5.36-1.06 7.38-3.1l4.94-4.93c1.3-1.3 1.3-3.43 0-4.74zm-9.73-6.9l8.3 8.3c.54.54.54 1.4 0 1.93-.52.52-1.38.52-1.9 0l-8.32-8.32c-.53-.53-.53-1.4 0-1.92.5-.5 1.4-.5 1.9 0zM17.33 8.37l8.32 8.3c.53.54.53 1.4 0 1.93s-1.38.53-1.9 0l-8.33-8.3c-.53-.54-.53-1.4 0-1.92.5-.52 1.4-.52 1.9 0zM50.67 53.5c-2.76 2.75-6.97 3.28-10.25 1.28C27.55 46.94 17.04 36.44 9.2 23.56c-2-3.27-1.47-7.5 1.3-10.24l2.76-2.78c.17.42.4.82.75 1.16l8.33 8.32c.34.34.74.6 1.17.75l-3.3 3.3c-1.04 1.04-1.3 2.6-.63 3.87 3.72 7.2 9.26 12.75 16.47 16.48.48.24 1 .36 1.5.36.86 0 1.72-.34 2.38-1l3.3-3.3c.16.43.4.83.74 1.17l8.32 8.32c.34.34.74.6 1.16.75l-2.77 2.78z', fill: 'url(#c)' })
+  ),
+  git: _react2.default.createElement(
+    'svg',
+    { xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 64 64', width: '50', height: '50' },
+    _react2.default.createElement('path', { d: 'M59 31c0 15.46-12.54 28-28 28S3 46.46 3 31 15.54 3 31 3s28 12.54 28 28z', fill: '#8B8E98' }),
+    _react2.default.createElement('path', { d: 'M31 54C18.3 54 8 43.7 8 31S18.3 8 31 8s23 10.3 23 23-10.3 23-23 23z', fill: '#7E8189' }),
+    _react2.default.createElement('path', { d: 'M36.08 43.35c1.7 1.82 2.73 4.17 2.92 6.65v5.25c0 .55.23 2.13.9 2.3L31 59.2l-9-1.6c.72-.17 1-1.78 1-2.33V52c-7.8 1.7-9.4-4.3-9.4-4.3-1.28-3.23-3.1-4.1-3.1-4.1-2.55-1.73.18-1.7.18-1.7 1.8.24 3.4 1.3 4.32 2.9 2.5 4.26 6.44 3.9 8 3.2.26-1.8 2.1-3.93 2.9-4.63-6.22-.7-12.76-3.1-12.76-13.84-.05-2.78.97-5.48 2.86-7.53-.85-2.4-.75-5.07.28-7.4 3.14-25.68 2.35-.76 7.7 2.86 4.58-1.25 9.42-1.25 14 0 5.34-3.62 7.7-2.87 7.7-2.87 1.04 2.33 1.16 4.98.32 7.4 1.9 2.04 2.9 4.73 2.87 7.5 0 10.8-6.55 13.16-12.8 13.85z', fill: '#FAEFDE' }),
+    _react2.default.createElement('path', { d: 'M31 2C16.86 2 4.78 12.22 2.42 26.16.06 40.1 8.12 53.72 21.46 58.38c.16.12.35.18.55.2 10.9 3.55 22.87.35 30.54-8.16 7.67-8.5 9.62-20.74 4.96-31.2C52.84 8.73 42.46 2 31 2zm-7.3 55c.18-.56.28-1.15.3-1.74v-.54V52c0-.3-.13-.6-.36-.8-.24-.2-.55-.26-.85-.2-6.73 1.46-8.18-3.38-8.24-3.58v-.1c-.58-1.68-1.62-3.14-3-4.25 1.07.44 1.96 1.2 2.56 2.2 2.64 4.53 7 4.65 9.3 3.62.3-.15.53-.44.58-.78.46-1.55 1.35-2.93 2.56-4 .3-.26.4-.67.28-1.05s-.45-.65-.84-.7c-5.87-.66-11.87-2.7-11.87-12.83-.04-2.53.9-4.98 2.62-6.84.3-.27.38-.7.25-1.06-.72-1.96-.72-4.12 0-6.1.85 0 2.92.4 6.42 2.77.24.18.54.23.83.15 4.4-1.2 9.07-1.2 13.48 0 .3.08.6.03.83-.14 3.5-2.37 5.6-2.73 6.4-2.76.75 1.96.78 4.12.08 6.1-.15.36-.07.77.2 1.05 1.7 1.85 2.64 4.3 2.6 6.83 0 10.13-6 12.17-11.9 12.82-.4.04-.7.32-.83.7-.1.38 0 .8.3 1.05 1.5 1.63 2.4 3.7 2.6 5.9v5.25c0 .6.1 1.18.3 1.75-4.78 1.35-9.83 1.35-14.6 0zm16.5-.6c-.12-.36-.18-.75-.2-1.13V50c-.12-2.1-.8-4.16-2-5.9 5.55-.95 11.9-3.83 11.9-14.57.03-2.82-.94-5.57-2.75-7.73.7-2.5.53-5.17-.48-7.56-.1-.28-.34-.5-.62-.58-.28-.1-2.85-.76-8.18 2.74-4.48-1.15-9.18-1.15-13.66 0-5.32-3.5-7.9-2.83-8.17-2.74-.28.1-.5.3-.62.58-1 2.4-1.17 5.06-.47 7.56-1.8 2.16-2.8 4.9-2.74 7.73 0 10.65 6.22 13.58 11.72 14.56-.78.92-1.37 2-1.74 3.15-1.42.4-4.34.4-6.3-2.94-1.08-1.87-3-3.13-5.14-3.4-.54 0-1.9.1-2.22 1.14-.32 1.04.9 2 1.46 2.4l.13.07c.07 0 1.53.8 2.6 3.54.24.7 2.23 6.1 9.36 5.15v2.05c-.02.4-.1.77-.2 1.13C9.52 51.9 2.2 39.23 4.45 26.32 6.73 13.42 17.96 4 31.06 4c13.1 0 24.32 9.4 26.6 22.32 2.26 12.9-5.08 25.6-17.4 30.06z', fill: '#8D6C9F' }),
+    _react2.default.createElement('path', { d: 'M31 37c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1zM35.6 39.53c.15.53.7.84 1.23.7.53-.15.85-.7.7-1.23L37 37.08c-.16-.5-.7-.8-1.2-.67-.54.15-.85.67-.73 1.2zM21.75 34.52c-.23-.13-.5-.17-.76-.1-.27.07-.5.24-.62.47l-1 1.72c-.25.47-.08 1.06.4 1.33.45.27 1.04.12 1.33-.33l1-1.73c.15-.24.18-.5.1-.77-.05-.26-.22-.48-.45-.6zM40.88 37.62c.17.33.5.53.87.54.37 0 .7-.2.9-.52.17-.32.16-.7-.04-1.02l-1-1.73c-.28-.46-.87-.6-1.33-.34-.47.27-.64.85-.4 1.33zM26.2 36.37c-.52-.14-1.07.18-1.2.7L24.46 39c-.1.35-.02.73.24 1 .26.25.64.36 1 .26.35-.1.62-.38.7-.74l.52-1.93c.14-.54-.18-1.1-.7-1.23zM41.35 9.46c-.75-.37-1.5-.7-2.3-1-.5-.16-1.05.1-1.23.6-.2.5.04 1.06.53 1.27.72.27 1.42.58 2.1.92.14.07.3.1.45.1.46 0 .86-.3.97-.76.1-.46-.1-.92-.52-1.13zM34.65 7.3c-5.17-.83-10.45.13-15 2.7-.4.23-.6.7-.47 1.14.1.44.52.74.97.74.17 0 .34-.04.5-.13 4.14-2.35 8.98-3.23 13.7-2.48.54.1 1.06-.3 1.15-.84.1-.55-.3-1.07-.84-1.16z', fill: '#8D6C9F' })
   )
-
 };
 module.exports = icons;
 
@@ -13869,7 +13919,7 @@ module.exports = BeforeInputEventPlugin;
 
 var CSSProperty = __webpack_require__(71);
 var ExecutionEnvironment = __webpack_require__(6);
-var ReactInstrumentation = __webpack_require__(9);
+var ReactInstrumentation = __webpack_require__(8);
 
 var camelizeStyleName = __webpack_require__(136);
 var dangerousStyleValue = __webpack_require__(212);
@@ -14583,7 +14633,7 @@ module.exports = EnterLeaveEventPlugin;
 
 var _assign = __webpack_require__(4);
 
-var PooledClass = __webpack_require__(16);
+var PooledClass = __webpack_require__(15);
 
 var getTextContentAccessor = __webpack_require__(87);
 
@@ -15115,7 +15165,7 @@ var ReactComponentEnvironment = __webpack_require__(47);
 var ReactCurrentOwner = __webpack_require__(12);
 var ReactErrorUtils = __webpack_require__(48);
 var ReactInstanceMap = __webpack_require__(26);
-var ReactInstrumentation = __webpack_require__(9);
+var ReactInstrumentation = __webpack_require__(8);
 var ReactNodeTypes = __webpack_require__(81);
 var ReactReconciler = __webpack_require__(19);
 
@@ -16098,7 +16148,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 if (process.env.NODE_ENV !== 'production') {
-  var ReactInstrumentation = __webpack_require__(9);
+  var ReactInstrumentation = __webpack_require__(8);
   var ReactDOMUnknownPropertyHook = __webpack_require__(178);
   var ReactDOMNullInputValuePropHook = __webpack_require__(172);
   var ReactDOMInvalidARIAHook = __webpack_require__(171);
@@ -16146,7 +16196,7 @@ var ReactDOMInput = __webpack_require__(170);
 var ReactDOMOption = __webpack_require__(173);
 var ReactDOMSelect = __webpack_require__(75);
 var ReactDOMTextarea = __webpack_require__(176);
-var ReactInstrumentation = __webpack_require__(9);
+var ReactInstrumentation = __webpack_require__(8);
 var ReactMultiChild = __webpack_require__(189);
 var ReactServerRenderingTransaction = __webpack_require__(194);
 
@@ -19251,7 +19301,7 @@ var _assign = __webpack_require__(4);
 
 var EventListener = __webpack_require__(66);
 var ExecutionEnvironment = __webpack_require__(6);
-var PooledClass = __webpack_require__(16);
+var PooledClass = __webpack_require__(15);
 var ReactDOMComponentTree = __webpack_require__(5);
 var ReactUpdates = __webpack_require__(11);
 
@@ -19577,7 +19627,7 @@ var _prodInvariant = __webpack_require__(3);
 
 var ReactComponentEnvironment = __webpack_require__(47);
 var ReactInstanceMap = __webpack_require__(26);
-var ReactInstrumentation = __webpack_require__(9);
+var ReactInstrumentation = __webpack_require__(8);
 
 var ReactCurrentOwner = __webpack_require__(12);
 var ReactReconciler = __webpack_require__(19);
@@ -20152,10 +20202,10 @@ module.exports = ReactPropTypeLocationNames;
 var _assign = __webpack_require__(4);
 
 var CallbackQueue = __webpack_require__(72);
-var PooledClass = __webpack_require__(16);
+var PooledClass = __webpack_require__(15);
 var ReactBrowserEventEmitter = __webpack_require__(30);
 var ReactInputSelection = __webpack_require__(79);
-var ReactInstrumentation = __webpack_require__(9);
+var ReactInstrumentation = __webpack_require__(8);
 var Transaction = __webpack_require__(32);
 var ReactUpdateQueue = __webpack_require__(49);
 
@@ -20425,9 +20475,9 @@ module.exports = ReactRef;
 
 var _assign = __webpack_require__(4);
 
-var PooledClass = __webpack_require__(16);
+var PooledClass = __webpack_require__(15);
 var Transaction = __webpack_require__(32);
-var ReactInstrumentation = __webpack_require__(9);
+var ReactInstrumentation = __webpack_require__(8);
 var ReactServerUpdateQueue = __webpack_require__(195);
 
 /**
@@ -22826,7 +22876,7 @@ var _objectWithoutProperties2 = __webpack_require__(23);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
-var _react = __webpack_require__(8);
+var _react = __webpack_require__(9);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -22865,7 +22915,7 @@ var _objectWithoutProperties2 = __webpack_require__(23);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
-var _react = __webpack_require__(8);
+var _react = __webpack_require__(9);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -22905,7 +22955,7 @@ var _extends2 = __webpack_require__(22);
 
 var _extends3 = _interopRequireDefault(_extends2);
 
-var _react = __webpack_require__(8);
+var _react = __webpack_require__(9);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -22951,7 +23001,7 @@ var _objectWithoutProperties2 = __webpack_require__(23);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
-var _react = __webpack_require__(8);
+var _react = __webpack_require__(9);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -23180,7 +23230,7 @@ module.exports = PooledClass;
 
 
 var PooledClass = __webpack_require__(227);
-var ReactElement = __webpack_require__(17);
+var ReactElement = __webpack_require__(16);
 
 var emptyFunction = __webpack_require__(10);
 var traverseAllChildren = __webpack_require__(238);
@@ -23373,7 +23423,7 @@ module.exports = ReactChildren;
 
 
 
-var ReactElement = __webpack_require__(17);
+var ReactElement = __webpack_require__(16);
 
 /**
  * Create a factory that creates HTML tag elements.
@@ -23575,7 +23625,7 @@ module.exports = ReactPropTypeLocationNames;
 
 
 
-var _require = __webpack_require__(17),
+var _require = __webpack_require__(16),
     isValidElement = _require.isValidElement;
 
 var factory = __webpack_require__(69);
@@ -23728,7 +23778,7 @@ module.exports = checkReactTypeSpec;
 var _require = __webpack_require__(94),
     Component = _require.Component;
 
-var _require2 = __webpack_require__(17),
+var _require2 = __webpack_require__(16),
     isValidElement = _require2.isValidElement;
 
 var ReactNoopUpdateQueue = __webpack_require__(97);
@@ -23776,7 +23826,7 @@ module.exports = getNextDebugID;
 
 var _prodInvariant = __webpack_require__(21);
 
-var ReactElement = __webpack_require__(17);
+var ReactElement = __webpack_require__(16);
 
 var invariant = __webpack_require__(1);
 
