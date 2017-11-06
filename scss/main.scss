@@ -25,21 +25,17 @@ position:fixed;
 max-width:1200px;
 width:96%;
 background-color: #F9F0EA;
-.menuDiv{
-
-font-size:2rem;
-font-weight:bold;
-}
+  .menuDiv{
+    font-size:2rem;
+    font-weight:bold;
+  }
 }
 p{
   max-width:1000px;
   margin: 0 auto;
 }
-
-
  .homeDiv, .portfolioDiv, #skillsDiv, .contactDiv {
   height:100vh;
-  margin-bottom: 10px;
 }
 
 .pointer{
@@ -56,11 +52,11 @@ p{
     margin-top:25px;
   }
 }
-  .skillsh2{
-    text-align:center;
+.skillsh2{
+  text-align:center;
   }
 
-  .menuDiv{
+.menuDiv{
     display:flex;
     a{
       color:#FF584C;
@@ -115,5 +111,22 @@ p{
 }
 .homeDivInfoInner{
   max-width: 600px;
+}
+.portfolioDiv{
+  b{
+    font-size:2rem;
+  }
+}
+
+.portfolioDivContainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
+.portfolioDivExample{
+  border:1px solid red;
+  min-width: 33%;
+  min-height:200px;
 
 }

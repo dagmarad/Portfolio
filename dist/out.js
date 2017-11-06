@@ -10250,13 +10250,13 @@ var Contact = function (_React$Component) {
             'h3',
             null,
             _icons2.default.message,
-            'Would you like to contact me?'
+            ' Would you like to contact me?'
           ),
           _react2.default.createElement(
             'p',
             null,
             _icons2.default.phone,
-            'Please call me at 609094679 '
+            ' Please call me at 609094679 '
           ),
           _react2.default.createElement(
             'p',
@@ -10407,38 +10407,62 @@ var Portfolio = function (_React$Component) {
         'div',
         { className: 'portfolioDiv', id: 'portfolioDiv' },
         _react2.default.createElement(
-          'ul',
-          { className: 'portfolioUl' },
-          ' ',
+          'b',
+          null,
+          'My projects'
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'portfolioDivContainer' },
           _react2.default.createElement(
-            'b',
-            null,
-            'Moje projekty'
+            'div',
+            { className: 'portfolioDivExample' },
+            _react2.default.createElement(
+              'b',
+              null,
+              'Cat Shelter App'
+            )
           ),
           _react2.default.createElement(
-            'li',
-            null,
-            'Cat Shelter App'
+            'div',
+            { className: 'portfolioDivExample' },
+            _react2.default.createElement(
+              'b',
+              null,
+              'Nasa API'
+            )
           ),
           _react2.default.createElement(
-            'li',
-            null,
-            'Nasa API'
+            'div',
+            { className: 'portfolioDivExample' },
+            _react2.default.createElement(
+              'b',
+              null,
+              'Wedding page'
+            )
           ),
           _react2.default.createElement(
-            'li',
-            null,
-            'Wedding page'
+            'div',
+            { className: 'portfolioDivExample' },
+            _react2.default.createElement(
+              'b',
+              null,
+              'Example of javascript'
+            )
           ),
           _react2.default.createElement(
-            'li',
-            null,
-            'Example of javascript'
+            'div',
+            { className: 'portfolioDivExample' },
+            _react2.default.createElement(
+              'b',
+              null,
+              'Daily Expense App'
+            )
           ),
           _react2.default.createElement(
-            'li',
-            null,
-            'Daily Expense App'
+            'div',
+            { className: 'portfolioDivExample' },
+            _react2.default.createElement('b', null)
           )
         )
       );
