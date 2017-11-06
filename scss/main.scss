@@ -25,6 +25,7 @@ position:fixed;
 max-width:1200px;
 width:96%;
 background-color: #F9F0EA;
+height: 10vh;
   .menuDiv{
     font-size:2rem;
     font-weight:bold;
@@ -35,7 +36,8 @@ p{
   margin: 0 auto;
 }
  .homeDiv, .portfolioDiv, #skillsDiv, .contactDiv {
-  height:100vh;
+  height:90vh;
+  padding-top: 10vh;
 }
 
 .pointer{
