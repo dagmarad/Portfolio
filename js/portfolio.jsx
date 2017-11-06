@@ -13,6 +13,7 @@ class Portfolio extends React.Component{
           <div className="portfolioDivExample"><b>Daily Expense App</b></div>
           <div className="portfolioDivExample"><b></b></div>
         </div>
+        <div className="pointer"><a href="#skillsDiv">&gt;</a></div>
 
     </div>
     )

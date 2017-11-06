@@ -12,6 +12,7 @@ import icons from './icons.jsx';
             <p>{icons.phone} Please call me at 609094679 </p>
             <p>Send e-mail at gruszczynska.dagmara@gmail.com</p>
           </div>
+          <div className="pointer"><a href="#homeDiv">&lt;</a></div>
         </div>)
     }
   }

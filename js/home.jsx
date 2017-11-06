@@ -14,7 +14,7 @@ import Menu from './menu.jsx';
         <p>Niedawno ukończyłam dwumiesięczny kurs Front-end Developer w Coders Lab i teraz szukam pracy. Znam różne fajne technologie.
         Z mojego portfolia dowiesz się, jakie są moje projekty oraz jakie znam technologię</p>
         </div>
-        <div className="pointer"><b>&gt;</b></div>
+        <div className="pointer"><a href="#portfolioDiv">&gt;</a></div>
     </div>
 
     </div>

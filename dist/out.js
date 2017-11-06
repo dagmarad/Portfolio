@@ -10263,6 +10263,15 @@ var Contact = function (_React$Component) {
             null,
             'Send e-mail at gruszczynska.dagmara@gmail.com'
           )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'pointer' },
+          _react2.default.createElement(
+            'a',
+            { href: '#homeDiv' },
+            '<'
+          )
         )
       );
     }
@@ -10346,8 +10355,8 @@ var Home = function (_React$Component) {
               'div',
               { className: 'pointer' },
               _react2.default.createElement(
-                'b',
-                null,
+                'a',
+                { href: '#portfolioDiv' },
                 '>'
               )
             )
@@ -10407,7 +10416,7 @@ var Portfolio = function (_React$Component) {
         'div',
         { className: 'portfolioDiv', id: 'portfolioDiv' },
         _react2.default.createElement(
-          'b',
+          'h3',
           null,
           'My projects'
         ),
@@ -10463,6 +10472,15 @@ var Portfolio = function (_React$Component) {
             'div',
             { className: 'portfolioDivExample' },
             _react2.default.createElement('b', null)
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'pointer' },
+          _react2.default.createElement(
+            'a',
+            { href: '#skillsDiv' },
+            '>'
           )
         )
       );
@@ -10629,6 +10647,15 @@ var Skills = function (_React$Component) {
                                                         null,
                                                         'GIT'
                                                 )
+                                        )
+                                ),
+                                _react2.default.createElement(
+                                        'div',
+                                        { className: 'pointer' },
+                                        _react2.default.createElement(
+                                                'a',
+                                                { href: '#contactDiv' },
+                                                '>'
                                         )
                                 )
                         );

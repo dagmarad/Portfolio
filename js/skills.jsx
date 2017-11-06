@@ -19,11 +19,12 @@ class Skills extends React.Component{
         <div className="skillsDivExample">{icons.es6}<p>ECMASCRIPT6</p></div>
 
         <div className="skillsDivExample">{icons.react}<p>React</p></div>
-        
+
         <div className="skillsDivExample">{icons.webpack}<p>Webpack</p></div>
         <div className="skillsDivExample">{icons.github}<p>GIT</p></div>
 
       </div>
+      <div className="pointer"><a href="#contactDiv">&gt;</a></div>
     </div>
    )
   }
