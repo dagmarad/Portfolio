@@ -7,7 +7,7 @@ import Menu from './menu.jsx';
     render(){
       return (<div>
     <Menu/>
-    <div className="homeDiv">
+    <div className="homeDiv"  id="homeDiv" >
       <div className="homeDivInfo">
         <div className="homeDivInfoInner">
         <h3>Cześć, mam na imię Dagmara</h3>

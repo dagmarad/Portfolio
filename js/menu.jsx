@@ -6,7 +6,7 @@ import { SocialIcon } from 'react-social-icons';
 
     render(){
       return (
-    <div className="containerMenu ">
+    <div className="containerMenu">
     <div className="menuDiv">
         <div className="menuLeftDiv"></div>
         <div className="menuCenterDiv">
