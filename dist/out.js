@@ -6713,7 +6713,9 @@ var _reactDom = __webpack_require__(15);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _reactSocialIcons = __webpack_require__(60);
+var _icons = __webpack_require__(61);
+
+var _icons2 = _interopRequireDefault(_icons);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -6795,7 +6797,11 @@ var Menu = function (_React$Component) {
               _react2.default.createElement(
                 'div',
                 null,
-                _react2.default.createElement(_reactSocialIcons.SocialIcon, { url: 'http://linkedin.com/in/dagmara-gruszczynska/' })
+                _react2.default.createElement(
+                  'a',
+                  { href: 'https://www.linkedin.com/in/dagmara-gruszczynska/', target: 'blank' },
+                  _icons2.default.linkedin
+                )
               )
             ),
             _react2.default.createElement(
@@ -6804,7 +6810,11 @@ var Menu = function (_React$Component) {
               _react2.default.createElement(
                 'div',
                 null,
-                _react2.default.createElement(_reactSocialIcons.SocialIcon, { url: 'http://github.com/dagmarad' })
+                _react2.default.createElement(
+                  'a',
+                  { href: 'https://github.com/dagmarad/', target: 'blank' },
+                  _icons2.default.git
+                )
               )
             )
           )
@@ -6903,6 +6913,11 @@ var icons = {
       _react2.default.createElement('path', { d: 'M520.5 78.1' })
     )
   ),
+  linkedin: _react2.default.createElement(
+    'svg',
+    { xmlns: 'http://www.w3.org/2000/svg', width: '30', height: '30', viewBox: '0 5 1036 990' },
+    _react2.default.createElement('path', { fill: '#FF584C', d: 'M0 120c0-33.33 11.67-60.83 35-82.5S88.67 5 126 5c36.67 0 66.33 10.67 89 32 23.33 22 35 50.67 35 86 0 32-11.33 58.67-34 80-23.33 22-54 33-92 33h-1c-36.67 0-66.33-11-89-33S0 153.33 0 120zm13 875V327h222v668H13zm345 0h222V622c0-23.33 2.67-41.33 8-54 9.33-22.67 23.5-41.83 42.5-57.5 19-15.67 42.83-23.5 71.5-23.5 74.67 0 112 50.33 112 151v357h222V612c0-98.67-23.33-173.5-70-224.5S857.67 311 781 311c-86 0-153 37-201 111v2h-1l1-2v-95H358c1.33 21.33 2 87.67 2 199s-.67 267.67-2 469z' })
+  ),
 
   message: _react2.default.createElement(
     'svg',
@@ -6919,6 +6934,12 @@ var icons = {
     { xmlns: 'http://www.w3.org/2000/svg', width: '50', height: '50', viewBox: '0 0 999.937 999.937' },
     _react2.default.createElement('path', { fill: '#0868AB', d: 'M0 499.97c0-138 48.83-255.84 146.48-353.5C244.13 48.84 361.96 0 499.98 0c138 0 255.83 48.83 353.48 146.47 97.65 97.66 146.48 215.5 146.48 353.5S951.1 755.8 853.46 853.47c-97.65 97.64-215.48 146.47-353.5 146.47-138 0-255.83-48.83-353.48-146.48C48.83 755.8 0 637.98 0 499.96zm54.68 0c0 122.4 43.62 227.2 130.85 314.43 87.24 87.24 192.05 130.85 314.44 130.85 122.4 0 227.2-43.6 314.43-130.85 87.24-87.23 130.85-192.04 130.85-314.43 0-122.4-43.6-227.2-130.85-314.44C727.17 98.3 622.36 54.7 499.97 54.7c-122.4 0-227.2 43.62-314.44 130.85C98.3 272.77 54.68 377.6 54.68 499.98zm140.62 107.4c-2.6-2.6-2.6-5.2 0-7.8 5.2-5.2 11.72-7.16 19.53-5.86 7.8 1.3 12.37 2.62 13.67 3.92 9.1 3.9 19.2 12.7 30.27 26.36 11.07 13.67 19.86 23.1 26.37 28.32 31.25 26.04 63.14 28 95.7 5.86 2.6-9.1 6.83-16.93 12.7-23.44 5.85-6.5 11.38-11.06 16.6-13.67 5.2-2.6 14.3-6.5 27.33-11.72-42.97-3.9-77.8-11.4-104.48-22.46s-47.86-25.06-63.5-41.98c-20.82-23.45-33.5-54.05-38.07-91.8-4.56-37.76-1.63-72.27 8.8-103.5 7.8-19.54 18.87-37.12 33.2-52.75-10.43-32.55-8.48-69.65 5.85-111.32 41.66 2.6 79.42 16.93 113.27 42.97 65.1-16.93 132.8-17.58 203.1-1.95 9.13-6.5 23.12-14.65 42-24.42 18.88-9.76 42.64-15.3 71.3-16.6 5.2 14.32 8.77 31.25 10.73 50.78s.97 37.77-2.93 54.7c29.94 31.24 45.57 72.9 46.87 125 0 41.65-7.16 76.15-21.48 103.5s-39.7 50.12-76.17 68.35c-24.74 11.72-57.3 18.88-97.65 21.48 18.23 9.12 31.57 18.56 40.04 28.32 8.46 9.77 14 25.06 16.6 45.9v61.52l1.95 59.56c3.92 6.5 8.48 12.05 13.68 16.6 5.2 4.56 9.77 7.82 13.67 9.77 3.9 1.95 5.2 4.88 3.9 8.8-1.3 3.9-6.5 5.85-15.6 5.85-22.15 0-39.72-7.8-52.74-23.44-3.9-6.5-5.85-14.3-5.85-23.42v-93.75c0-10.4-2.6-17.9-7.82-22.46-5.2-4.56-10.4-7.5-15.62-8.8v123.05c0 22.14 2.6 36.46 7.82 42.97s8.47 13 9.77 19.52c1.3 1.3.3 2.28-2.94 2.93-3.26.65-8.8-.33-16.6-2.93-16.93-3.9-28.65-12.7-35.16-26.37-6.5-13.67-9.76-28.32-9.76-43.94V667.94h-25.4V789c0 15.64-3.25 30.6-9.76 44.93-9.1 18.23-26.04 28-50.77 29.3-3.9-1.3-5.85-2.6-5.85-3.9 1.3-1.3 5.2-7.82 11.72-19.54 1.3-2.6 2.93-7.82 4.88-15.63 1.95-7.8 2.93-16.93 2.93-27.34V673.78c-5.2 1.3-10.1 4.24-14.65 8.8s-6.84 12.04-6.84 22.45v93.75c0 9.1-1.96 16.92-5.86 23.43-11.72 15.64-29.3 23.45-52.73 23.45-9.1 0-14.32-1.95-15.62-5.86-1.3-2.6-.98-4.9.98-6.84s4.88-4.24 8.8-6.84c3.9-2.6 6.5-4.56 7.8-5.86 5.2-3.9 9.1-9.1 11.72-15.62 3.9-5.2 4.88-18.88 2.93-41.02s-2.27-36.45-.97-42.96c-33.85 11.72-68.36 5.86-103.5-17.58-10.43-10.42-20.84-25.4-31.26-44.92-7.8-14.32-23.43-31.25-46.87-50.78z' })
   ),
+  git: _react2.default.createElement(
+    'svg',
+    { xmlns: 'http://www.w3.org/2000/svg', width: '30', height: '30', viewBox: '0 0 999.937 999.937' },
+    _react2.default.createElement('path', { fill: '#FF584C', d: 'M0 499.97c0-138 48.83-255.84 146.48-353.5C244.13 48.84 361.96 0 499.98 0c138 0 255.83 48.83 353.48 146.47 97.65 97.66 146.48 215.5 146.48 353.5S951.1 755.8 853.46 853.47c-97.65 97.64-215.48 146.47-353.5 146.47-138 0-255.83-48.83-353.48-146.48C48.83 755.8 0 637.98 0 499.96zm54.68 0c0 122.4 43.62 227.2 130.85 314.43 87.24 87.24 192.05 130.85 314.44 130.85 122.4 0 227.2-43.6 314.43-130.85 87.24-87.23 130.85-192.04 130.85-314.43 0-122.4-43.6-227.2-130.85-314.44C727.17 98.3 622.36 54.7 499.97 54.7c-122.4 0-227.2 43.62-314.44 130.85C98.3 272.77 54.68 377.6 54.68 499.98zm140.62 107.4c-2.6-2.6-2.6-5.2 0-7.8 5.2-5.2 11.72-7.16 19.53-5.86 7.8 1.3 12.37 2.62 13.67 3.92 9.1 3.9 19.2 12.7 30.27 26.36 11.07 13.67 19.86 23.1 26.37 28.32 31.25 26.04 63.14 28 95.7 5.86 2.6-9.1 6.83-16.93 12.7-23.44 5.85-6.5 11.38-11.06 16.6-13.67 5.2-2.6 14.3-6.5 27.33-11.72-42.97-3.9-77.8-11.4-104.48-22.46s-47.86-25.06-63.5-41.98c-20.82-23.45-33.5-54.05-38.07-91.8-4.56-37.76-1.63-72.27 8.8-103.5 7.8-19.54 18.87-37.12 33.2-52.75-10.43-32.55-8.48-69.65 5.85-111.32 41.66 2.6 79.42 16.93 113.27 42.97 65.1-16.93 132.8-17.58 203.1-1.95 9.13-6.5 23.12-14.65 42-24.42 18.88-9.76 42.64-15.3 71.3-16.6 5.2 14.32 8.77 31.25 10.73 50.78s.97 37.77-2.93 54.7c29.94 31.24 45.57 72.9 46.87 125 0 41.65-7.16 76.15-21.48 103.5s-39.7 50.12-76.17 68.35c-24.74 11.72-57.3 18.88-97.65 21.48 18.23 9.12 31.57 18.56 40.04 28.32 8.46 9.77 14 25.06 16.6 45.9v61.52l1.95 59.56c3.92 6.5 8.48 12.05 13.68 16.6 5.2 4.56 9.77 7.82 13.67 9.77 3.9 1.95 5.2 4.88 3.9 8.8-1.3 3.9-6.5 5.85-15.6 5.85-22.15 0-39.72-7.8-52.74-23.44-3.9-6.5-5.85-14.3-5.85-23.42v-93.75c0-10.4-2.6-17.9-7.82-22.46-5.2-4.56-10.4-7.5-15.62-8.8v123.05c0 22.14 2.6 36.46 7.82 42.97s8.47 13 9.77 19.52c1.3 1.3.3 2.28-2.94 2.93-3.26.65-8.8-.33-16.6-2.93-16.93-3.9-28.65-12.7-35.16-26.37-6.5-13.67-9.76-28.32-9.76-43.94V667.94h-25.4V789c0 15.64-3.25 30.6-9.76 44.93-9.1 18.23-26.04 28-50.77 29.3-3.9-1.3-5.85-2.6-5.85-3.9 1.3-1.3 5.2-7.82 11.72-19.54 1.3-2.6 2.93-7.82 4.88-15.63 1.95-7.8 2.93-16.93 2.93-27.34V673.78c-5.2 1.3-10.1 4.24-14.65 8.8s-6.84 12.04-6.84 22.45v93.75c0 9.1-1.96 16.92-5.86 23.43-11.72 15.64-29.3 23.45-52.73 23.45-9.1 0-14.32-1.95-15.62-5.86-1.3-2.6-.98-4.9.98-6.84s4.88-4.24 8.8-6.84c3.9-2.6 6.5-4.56 7.8-5.86 5.2-3.9 9.1-9.1 11.72-15.62 3.9-5.2 4.88-18.88 2.93-41.02s-2.27-36.45-.97-42.96c-33.85 11.72-68.36 5.86-103.5-17.58-10.43-10.42-20.84-25.4-31.26-44.92-7.8-14.32-23.43-31.25-46.87-50.78z' })
+  ),
+
   webpack: _react2.default.createElement(
     'svg',
     { xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 1200 1200', width: '50', height: '50' },
@@ -10238,27 +10259,23 @@ var Contact = function (_React$Component) {
           'div',
           { className: 'wrapper' },
           _react2.default.createElement(
-            'div',
+            'h3',
             null,
-            _react2.default.createElement(
-              'h3',
-              null,
-              'Contact'
-            )
+            'Contact'
           ),
           _react2.default.createElement(
-            'div',
+            'p',
             null,
             'Would you like to contact me?'
           ),
           _react2.default.createElement(
-            'div',
+            'p',
             null,
             _icons2.default.phone,
             ' Please call me at 609094679 '
           ),
           _react2.default.createElement(
-            'div',
+            'p',
             null,
             _icons2.default.message,
             ' Send e-mail at gruszczynska.dagmara@gmail.com'
@@ -10268,7 +10285,7 @@ var Contact = function (_React$Component) {
             { className: 'pointer' },
             _react2.default.createElement(
               'a',
-              { href: '#homeDiv' },
+              { href: '#home' },
               '<'
             )
           )
@@ -10332,7 +10349,7 @@ var Home = function (_React$Component) {
         { id: 'home' },
         _react2.default.createElement(
           'div',
-          { className: 'homeDivInfoInner' },
+          { className: 'home__invitation' },
           _react2.default.createElement(
             'h3',
             null,
@@ -10349,7 +10366,7 @@ var Home = function (_React$Component) {
           { className: 'pointer' },
           _react2.default.createElement(
             'a',
-            { href: '#portfolioDiv' },
+            { href: '#portfolio' },
             '>'
           )
         )
@@ -10405,7 +10422,7 @@ var Portfolio = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         'section',
-        { id: 'portfolioDiv' },
+        { id: 'portfolio' },
         _react2.default.createElement(
           'h3',
           null,
@@ -10413,58 +10430,13 @@ var Portfolio = function (_React$Component) {
         ),
         _react2.default.createElement(
           'div',
-          { className: 'portfolioDivContainer' },
-          _react2.default.createElement(
-            'div',
-            { className: 'portfolioDivExample' },
-            _react2.default.createElement(
-              'b',
-              null,
-              'Cat Shelter App'
-            ),
-            'Small and simple aplication in React - you can find a cat to adopt.'
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'portfolioDivExample' },
-            _react2.default.createElement(
-              'b',
-              null,
-              'Nasa API'
-            )
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'portfolioDivExample' },
-            _react2.default.createElement(
-              'b',
-              null,
-              'Wedding page'
-            )
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'portfolioDivExample' },
-            _react2.default.createElement(
-              'b',
-              null,
-              'Example of javascript'
-            )
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'portfolioDivExample' },
-            _react2.default.createElement(
-              'b',
-              null,
-              'Daily Expense App'
-            )
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'portfolioDivExample' },
-            _react2.default.createElement('b', null)
-          )
+          { className: 'portfolio__list' },
+          _react2.default.createElement('div', { className: 'portfolio__list__item' }),
+          _react2.default.createElement('div', { className: 'portfolio__list__item' }),
+          _react2.default.createElement('div', { className: 'portfolio__list__item' }),
+          _react2.default.createElement('div', { className: 'portfolio__list__item' }),
+          _react2.default.createElement('div', { className: 'portfolio__list__item' }),
+          _react2.default.createElement('div', { className: 'portfolio__list__item' })
         ),
         _react2.default.createElement(
           'div',
@@ -10531,27 +10503,23 @@ var Skills = function (_React$Component) {
                 value: function render() {
                         return _react2.default.createElement(
                                 'section',
-                                { id: 'skillsDiv' },
+                                { id: 'skills' },
                                 _react2.default.createElement(
                                         'h2',
-                                        { className: 'skillsh2' },
+                                        null,
                                         ' Moje umiej\u0119tno\u015Bci'
                                 ),
                                 _react2.default.createElement(
-                                        'div',
+                                        'p',
                                         null,
-                                        _react2.default.createElement(
-                                                'p',
-                                                null,
-                                                'Potrafi\u0119 pisa\u0107 fajny i weso\u0142y kod. U\u017Cywam Webpacka i Gulpa, korzystam z Sassa. Jak renderuje to tylko w Reakcie. Ca\u0142a ta strona jest w Reakcie bo bardzo go lubi\u0119. Chcia\u0142abym pracowa\u0107 z reactem, bo przekazywanie props\xF3w od dzieci do rodzic\xF3w to moje hobby. Poza tym lubi\u0119 p\u0119tle w Javascripcie. Najbardziej te podw\xF3jne. Jak mi si\u0119 nie chc\u0119 to u\u017Cywam Jquery bo jest szybciej, ale nic nie odaje przyjemno\u015Bci jakiej czuj\u0119, kiedy pisze document query selector'
-                                        )
+                                        'Potrafi\u0119 pisa\u0107 fajny i weso\u0142y kod. U\u017Cywam Webpacka i Gulpa, korzystam z Sassa. Jak renderuje to tylko w Reakcie. Ca\u0142a ta strona jest w Reakcie bo bardzo go lubi\u0119. Chcia\u0142abym pracowa\u0107 z reactem, bo przekazywanie props\xF3w od dzieci do rodzic\xF3w to moje hobby. Poza tym lubi\u0119 p\u0119tle w Javascripcie. Najbardziej te podw\xF3jne. Jak mi si\u0119 nie chc\u0119 to u\u017Cywam Jquery bo jest szybciej, ale nic nie odaje przyjemno\u015Bci jakiej czuj\u0119, kiedy pisze document query selector'
                                 ),
                                 _react2.default.createElement(
                                         'div',
-                                        { className: 'skillsDiv' },
+                                        { className: 'skills__list' },
                                         _react2.default.createElement(
                                                 'div',
-                                                { className: 'skillsDivExample' },
+                                                { className: 'skills__list__item' },
                                                 ' ',
                                                 _icons2.default.html,
                                                 _react2.default.createElement(
@@ -10562,7 +10530,7 @@ var Skills = function (_React$Component) {
                                         ),
                                         _react2.default.createElement(
                                                 'div',
-                                                { className: 'skillsDivExample' },
+                                                { className: 'skills__list__item' },
                                                 _icons2.default.css,
                                                 _react2.default.createElement(
                                                         'p',
@@ -10572,7 +10540,7 @@ var Skills = function (_React$Component) {
                                         ),
                                         _react2.default.createElement(
                                                 'div',
-                                                { className: 'skillsDivExample' },
+                                                { className: 'skills__list__item' },
                                                 _icons2.default.sass,
                                                 _react2.default.createElement(
                                                         'p',
@@ -10582,7 +10550,7 @@ var Skills = function (_React$Component) {
                                         ),
                                         _react2.default.createElement(
                                                 'div',
-                                                { className: 'skillsDivExample' },
+                                                { className: 'skills__list__item' },
                                                 _icons2.default.javascript,
                                                 _react2.default.createElement(
                                                         'p',
@@ -10592,7 +10560,7 @@ var Skills = function (_React$Component) {
                                         ),
                                         _react2.default.createElement(
                                                 'div',
-                                                { className: 'skillsDivExample' },
+                                                { className: 'skills__list__item' },
                                                 _icons2.default.jquery,
                                                 _react2.default.createElement(
                                                         'p',
@@ -10602,7 +10570,7 @@ var Skills = function (_React$Component) {
                                         ),
                                         _react2.default.createElement(
                                                 'div',
-                                                { className: 'skillsDivExample' },
+                                                { className: 'skills__list__item' },
                                                 _icons2.default.es6,
                                                 _react2.default.createElement(
                                                         'p',
@@ -10612,7 +10580,7 @@ var Skills = function (_React$Component) {
                                         ),
                                         _react2.default.createElement(
                                                 'div',
-                                                { className: 'skillsDivExample' },
+                                                { className: 'skills__list__item' },
                                                 _icons2.default.react,
                                                 _react2.default.createElement(
                                                         'p',
@@ -10622,7 +10590,7 @@ var Skills = function (_React$Component) {
                                         ),
                                         _react2.default.createElement(
                                                 'div',
-                                                { className: 'skillsDivExample' },
+                                                { className: 'skills__list__item' },
                                                 _icons2.default.webpack,
                                                 _react2.default.createElement(
                                                         'p',
@@ -10632,7 +10600,7 @@ var Skills = function (_React$Component) {
                                         ),
                                         _react2.default.createElement(
                                                 'div',
-                                                { className: 'skillsDivExample' },
+                                                { className: 'skills__list__item' },
                                                 _icons2.default.github,
                                                 _react2.default.createElement(
                                                         'p',

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { SocialIcon } from 'react-social-icons';
+import icons from './icons.jsx';
 
   class Menu extends React.Component{
 
@@ -19,8 +19,8 @@ import { SocialIcon } from 'react-social-icons';
         </div>
         <div className="menu__right">
           <ul>
-            <li><div><SocialIcon url="http://linkedin.com/in/dagmara-gruszczynska/" /></div></li>
-            <li><div><SocialIcon url="http://github.com/dagmarad" /></div></li>
+            <li><div><a href="https://www.linkedin.com/in/dagmara-gruszczynska/" target="blank">{icons.linkedin}</a></div></li>
+            <li><div><a href="https://github.com/dagmarad/" target="blank">{icons.git}</a></div></li>
           </ul>
         </div>
       </div>

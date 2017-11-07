@@ -7,12 +7,12 @@ import Menu from './menu.jsx';
     render(){
       return (
     <section  id="home" >
-        <div className="homeDivInfoInner">
-        <h3>Cześć, mam na imię Dagmara</h3>
-        <p>Niedawno ukończyłam dwumiesięczny kurs Front-end Developer w Coders Lab i teraz szukam pracy. Znam różne fajne technologie.
-        Z mojego portfolia dowiesz się, jakie są moje projekty oraz jakie znam technologię</p>
+        <div className="home__invitation">
+          <h3>Cześć, mam na imię Dagmara</h3>
+          <p>Niedawno ukończyłam dwumiesięczny kurs Front-end Developer w Coders Lab i teraz szukam pracy. Znam różne fajne technologie.
+          Z mojego portfolia dowiesz się, jakie są moje projekty oraz jakie znam technologię</p>
         </div>
-        <div className="pointer"><a href="#portfolioDiv">&gt;</a></div>
+        <div className="pointer"><a href="#portfolio">&gt;</a></div>
   </section>
   )
     }

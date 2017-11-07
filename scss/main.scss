@@ -49,19 +49,18 @@ section {
     font-weight: bold;
   }
 }
-.skillsDiv{
+
+.skills__list{
   display: flex;
   flex-direction: row;
   flex-wrap:wrap;
-  .skillsDivExample{
-    min-width:33%;
-    min-height:150px;
-    margin-top:25px;
-  }
 }
-.skillsh2{
-  text-align:center;
-  }
+
+.skills__list__item{
+  min-width:33%;
+  min-height:150px;
+  margin-top:25px;
+}
 
 .menu{
     display:flex;
@@ -106,24 +105,29 @@ section {
       }
     }
 
-.homeDivInfoInner{
+.home__invitation{
   max-width: 600px;
   margin: auto;
 }
-.portfolioDiv{
+#home{
+  background-image: url('../img/background.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.portfolio{
   b{
     font-size:2rem;
   }
 }
 
-.portfolioDivContainer{
+.portfolio__list{
   display: flex;
   justify-content: center;
   flex-direction: row;
   flex-wrap:wrap;
 }
-.portfolioDivExample{
-  border:1px solid red;
+.portfolio__list__item{
+
   min-width: 33%;
   min-height:200px;
 

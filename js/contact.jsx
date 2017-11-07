@@ -7,11 +7,11 @@ import icons from './icons.jsx';
       return (
         <section id="contact">
           <div className="wrapper">
-            <div><h3>Contact</h3></div>
-            <div>Would you like to contact me?</div>
-            <div>{icons.phone} Please call me at 609094679 </div>
-            <div>{icons.message} Send e-mail at gruszczynska.dagmara@gmail.com</div>
-            <div className="pointer"><a href="#homeDiv">&lt;</a></div>
+            <h3>Contact</h3>
+            <p>Would you like to contact me?</p>
+            <p>{icons.phone} Please call me at 609094679 </p>
+            <p>{icons.message} Send e-mail at gruszczynska.dagmara@gmail.com</p>
+            <div className="pointer"><a href="#home">&lt;</a></div>
           </div>
         </section>)
     }
