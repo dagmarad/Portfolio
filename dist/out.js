@@ -6737,78 +6737,74 @@ var Menu = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        { className: 'containerMenu' },
+        { className: 'menu container' },
+        _react2.default.createElement('div', { className: 'menu__left' }),
         _react2.default.createElement(
           'div',
-          { className: 'menuDiv' },
-          _react2.default.createElement('div', { className: 'menuLeftDiv' }),
+          { className: 'menu__center' },
           _react2.default.createElement(
-            'div',
-            { className: 'menuCenterDiv' },
+            'ul',
+            null,
             _react2.default.createElement(
-              'ul',
-              { className: 'menuUl' },
+              'li',
+              null,
               _react2.default.createElement(
-                'li',
-                null,
-                _react2.default.createElement(
-                  'a',
-                  { href: '#homeDiv' },
-                  'Home'
-                )
-              ),
+                'a',
+                { href: '#home' },
+                'HOME'
+              )
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
               _react2.default.createElement(
-                'li',
-                null,
-                _react2.default.createElement(
-                  'a',
-                  { href: '#portfolioDiv' },
-                  'Portfolio'
-                )
-              ),
+                'a',
+                { href: '#portfolio' },
+                'PORTFOLIO'
+              )
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
               _react2.default.createElement(
-                'li',
-                null,
-                _react2.default.createElement(
-                  'a',
-                  { href: '#skillsDiv' },
-                  'Skills'
-                )
-              ),
+                'a',
+                { href: '#skills' },
+                'SKILLS'
+              )
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
               _react2.default.createElement(
-                'li',
-                null,
-                _react2.default.createElement(
-                  'a',
-                  { href: '#contactDiv' },
-                  'Contact'
-                )
+                'a',
+                { href: '#contact' },
+                'CONTACT'
               )
             )
-          ),
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'menu__right' },
           _react2.default.createElement(
-            'div',
-            { className: 'menuRightDiv' },
+            'ul',
+            null,
             _react2.default.createElement(
-              'ul',
-              { className: 'socialUl' },
+              'li',
+              null,
               _react2.default.createElement(
-                'li',
+                'div',
                 null,
-                _react2.default.createElement(
-                  'div',
-                  { className: 'SocialIcon' },
-                  _react2.default.createElement(_reactSocialIcons.SocialIcon, { url: 'http://linkedin.com/in/dagmara-gruszczynska/' })
-                )
-              ),
+                _react2.default.createElement(_reactSocialIcons.SocialIcon, { url: 'http://linkedin.com/in/dagmara-gruszczynska/' })
+              )
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
               _react2.default.createElement(
-                'li',
+                'div',
                 null,
-                _react2.default.createElement(
-                  'div',
-                  { className: 'SocialIcon' },
-                  _react2.default.createElement(_reactSocialIcons.SocialIcon, { className: 'socialIcon', url: 'http://github.com/dagmarad' })
-                )
+                _react2.default.createElement(_reactSocialIcons.SocialIcon, { url: 'http://github.com/dagmarad' })
               )
             )
           )
@@ -10236,41 +10232,45 @@ var Contact = function (_React$Component) {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
-        'div',
-        { className: 'contactDiv', id: 'contactDiv' },
+        'section',
+        { id: 'contact' },
         _react2.default.createElement(
           'div',
-          { className: 'contactDivAddress' },
+          { className: 'wrapper' },
           _react2.default.createElement(
-            'h2',
+            'div',
             null,
-            'Contact'
+            _react2.default.createElement(
+              'h3',
+              null,
+              'Contact'
+            )
           ),
           _react2.default.createElement(
-            'h3',
+            'div',
             null,
-            _icons2.default.message,
-            ' Would you like to contact me?'
+            'Would you like to contact me?'
           ),
           _react2.default.createElement(
-            'p',
+            'div',
             null,
             _icons2.default.phone,
             ' Please call me at 609094679 '
           ),
           _react2.default.createElement(
-            'p',
+            'div',
             null,
-            'Send e-mail at gruszczynska.dagmara@gmail.com'
-          )
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'pointer' },
+            _icons2.default.message,
+            ' Send e-mail at gruszczynska.dagmara@gmail.com'
+          ),
           _react2.default.createElement(
-            'a',
-            { href: '#homeDiv' },
-            '<'
+            'div',
+            { className: 'pointer' },
+            _react2.default.createElement(
+              'a',
+              { href: '#homeDiv' },
+              '<'
+            )
           )
         )
       );
@@ -10328,38 +10328,29 @@ var Home = function (_React$Component) {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement(_menu2.default, null),
+        'section',
+        { id: 'home' },
         _react2.default.createElement(
           'div',
-          { className: 'homeDiv', id: 'homeDiv' },
+          { className: 'homeDivInfoInner' },
           _react2.default.createElement(
-            'div',
-            { className: 'homeDivInfo' },
-            _react2.default.createElement(
-              'div',
-              { className: 'homeDivInfoInner' },
-              _react2.default.createElement(
-                'h3',
-                null,
-                'Cze\u015B\u0107, mam na imi\u0119 Dagmara'
-              ),
-              _react2.default.createElement(
-                'p',
-                null,
-                'Niedawno uko\u0144czy\u0142am dwumiesi\u0119czny kurs Front-end Developer w Coders Lab i teraz szukam pracy. Znam r\xF3\u017Cne fajne technologie. Z mojego portfolia dowiesz si\u0119, jakie s\u0105 moje projekty oraz jakie znam technologi\u0119'
-              )
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: 'pointer' },
-              _react2.default.createElement(
-                'a',
-                { href: '#portfolioDiv' },
-                '>'
-              )
-            )
+            'h3',
+            null,
+            'Cze\u015B\u0107, mam na imi\u0119 Dagmara'
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            'Niedawno uko\u0144czy\u0142am dwumiesi\u0119czny kurs Front-end Developer w Coders Lab i teraz szukam pracy. Znam r\xF3\u017Cne fajne technologie. Z mojego portfolia dowiesz si\u0119, jakie s\u0105 moje projekty oraz jakie znam technologi\u0119'
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'pointer' },
+          _react2.default.createElement(
+            'a',
+            { href: '#portfolioDiv' },
+            '>'
           )
         )
       );
@@ -10413,8 +10404,8 @@ var Portfolio = function (_React$Component) {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
-        'div',
-        { className: 'portfolioDiv', id: 'portfolioDiv' },
+        'section',
+        { id: 'portfolioDiv' },
         _react2.default.createElement(
           'h3',
           null,
@@ -10430,7 +10421,8 @@ var Portfolio = function (_React$Component) {
               'b',
               null,
               'Cat Shelter App'
-            )
+            ),
+            'Small and simple aplication in React - you can find a cat to adopt.'
           ),
           _react2.default.createElement(
             'div',
@@ -10538,7 +10530,7 @@ var Skills = function (_React$Component) {
                 key: 'render',
                 value: function render() {
                         return _react2.default.createElement(
-                                'div',
+                                'section',
                                 { id: 'skillsDiv' },
                                 _react2.default.createElement(
                                         'h2',
@@ -10730,6 +10722,7 @@ document.addEventListener('DOMContentLoaded', function () {
         return _react2.default.createElement(
           'div',
           null,
+          _react2.default.createElement(_menu2.default, null),
           _react2.default.createElement(_home2.default, null),
           _react2.default.createElement(_portfolio2.default, null),
           _react2.default.createElement(_skills2.default, null),

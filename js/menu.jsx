@@ -6,25 +6,25 @@ import { SocialIcon } from 'react-social-icons';
 
     render(){
       return (
-    <div className="containerMenu">
-    <div className="menuDiv">
-        <div className="menuLeftDiv"></div>
-        <div className="menuCenterDiv">
-          <ul className="menuUl">
-            <li><a href="#homeDiv">Home</a></li>
-            <li><a href="#portfolioDiv">Portfolio</a></li>
-            <li><a href="#skillsDiv">Skills</a></li>
-            <li><a href="#contactDiv">Contact</a></li>
+
+    <div className="menu container">
+        <div className="menu__left"></div>
+        <div className="menu__center">
+          <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
           </ul>
         </div>
-        <div className="menuRightDiv">
-          <ul className="socialUl">
-            <li><div className="SocialIcon"><SocialIcon url="http://linkedin.com/in/dagmara-gruszczynska/" /></div></li>
-            <li><div className="SocialIcon"><SocialIcon className="socialIcon" url="http://github.com/dagmarad" /></div></li>
+        <div className="menu__right">
+          <ul>
+            <li><div><SocialIcon url="http://linkedin.com/in/dagmara-gruszczynska/" /></div></li>
+            <li><div><SocialIcon url="http://github.com/dagmarad" /></div></li>
           </ul>
         </div>
       </div>
-    </div>)
+    )
     }
   }
 

@@ -12,13 +12,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
   class App extends React.Component {
     render(){
-      return <div>
-       <Home/>
-       <Portfolio/>
-      <Skills/>
-      <Contact/>
-
-       </div>
+      return (<div>
+        <Menu/>
+        <Home/>
+        <Portfolio/>
+        <Skills/>
+        <Contact/>
+      </div>)
     }
   }
 

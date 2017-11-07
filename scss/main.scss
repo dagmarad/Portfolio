@@ -20,29 +20,29 @@ body{
   background-color: rgb(226, 226, 226)
 }
 
-.containerMenu{
-position:fixed;
+.container{
 max-width:1200px;
 width:96%;
-background-color: #F9F0EA;
-height: 10vh;
-  .menuDiv{
-    font-size:2rem;
-    font-weight:bold;
-  }
 }
 p{
   max-width:1000px;
   margin: 0 auto;
 }
- .homeDiv, .portfolioDiv, #skillsDiv, .contactDiv {
+section {
   height:90vh;
   padding-top: 10vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  flex-direction:column;
+  width:100%;
 }
 
 .pointer{
   cursor: pointer;
   transform:rotate(90deg);
+
   a{
     text-decoration:none;
     font-size:2rem;
@@ -63,8 +63,14 @@ p{
   text-align:center;
   }
 
-.menuDiv{
+.menu{
     display:flex;
+    height:10vh;
+    background-color: #F9F0EA;
+    font-size:1.25rem;
+    font-weight:bold;
+    line-height: 10vh;
+    position:fixed;
     a{
       color:#FF584C;
       text-decoration:none;
@@ -82,42 +88,27 @@ p{
     ul{
       padding:0;
       margin: auto;
-
     }
-
-    .menuLeftDiv{
+    .menu__left{
       justify-content: flex-start;
       min-width:20%;
     }
-    .menuCenterDiv{
+    .menu__center{
       justify-content: center;
       min-width:60%;
-      line-height: 2em;
-      li{
-
-        line-height: 2em;
-      }
     }
-    .menuRightDiv{
+    .menu__right{
       justify-content: flex-end;
       align-items: flex-end;
       min-width:20%;
-
       li{
         float:right;
       }
     }
-.contactDiv, .homeDivInfo{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
-  height:100vh;
-  margin:0px;
-  padding:0px;
-}
+
 .homeDivInfoInner{
   max-width: 600px;
+  margin: auto;
 }
 .portfolioDiv{
   b{

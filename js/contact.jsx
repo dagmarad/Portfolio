@@ -5,15 +5,15 @@ import icons from './icons.jsx';
   class Contact extends React.Component{
     render(){
       return (
-        <div className="contactDiv" id="contactDiv">
-          <div className="contactDivAddress">
-            <h2>Contact</h2>
-            <h3>{icons.message} Would you like to contact me?</h3>
-            <p>{icons.phone} Please call me at 609094679 </p>
-            <p>Send e-mail at gruszczynska.dagmara@gmail.com</p>
+        <section id="contact">
+          <div className="wrapper">
+            <div><h3>Contact</h3></div>
+            <div>Would you like to contact me?</div>
+            <div>{icons.phone} Please call me at 609094679 </div>
+            <div>{icons.message} Send e-mail at gruszczynska.dagmara@gmail.com</div>
+            <div className="pointer"><a href="#homeDiv">&lt;</a></div>
           </div>
-          <div className="pointer"><a href="#homeDiv">&lt;</a></div>
-        </div>)
+        </section>)
     }
   }
 
