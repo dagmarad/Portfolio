@@ -1,21 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { SocialIcon } from 'react-social-icons';
 import Home from './home.jsx';
 import Menu from './menu.jsx';
 import Portfolio from './portfolio.jsx';
 import Skills from './skills.jsx';
 import Contact from './contact.jsx';
+import PortfolioItem from './portfolioitem.jsx';
+
+
 document.addEventListener('DOMContentLoaded', () => {
 
 
 
   class App extends React.Component {
+
     render(){
       return (<div>
         <Menu/>
         <Home/>
-        <Portfolio/>
+        <Portfolio title="Daily exp app"
+        desc="super aplikacja111"
+        />
         <Skills/>
         <Contact/>
       </div>)
