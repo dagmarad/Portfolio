@@ -5,7 +5,7 @@ import Menu from './menu.jsx';
 import Portfolio from './portfolio.jsx';
 import Skills from './skills.jsx';
 import Contact from './contact.jsx';
-import PortfolioItem from './portfolioitem.jsx';
+
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -18,9 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
       return (<div>
         <Menu/>
         <Home/>
-        <Portfolio title="Daily exp app"
-        desc="super aplikacja111"
-        />
+        <Portfolio />
         <Skills/>
         <Contact/>
       </div>)

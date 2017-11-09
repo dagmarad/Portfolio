@@ -10069,18 +10069,7 @@ var Portfolio = function (_React$Component) {
         _react2.default.createElement(
           'div',
           { className: 'portfolio__list' },
-          _react2.default.createElement(
-            'div',
-            { className: 'portfolio__list__item' },
-            _react2.default.createElement(_portfolioitem2.default, {
-              title: this.props.title,
-              desc: this.props.desc })
-          ),
-          _react2.default.createElement('div', { className: 'portfolio__list__item' }),
-          _react2.default.createElement('div', { className: 'portfolio__list__item' }),
-          _react2.default.createElement('div', { className: 'portfolio__list__item' }),
-          _react2.default.createElement('div', { className: 'portfolio__list__item' }),
-          _react2.default.createElement('div', { className: 'portfolio__list__item' })
+          _react2.default.createElement(_portfolioitem2.default, null)
         ),
         _react2.default.createElement(
           'div',
@@ -10308,10 +10297,6 @@ var _contact = __webpack_require__(84);
 
 var _contact2 = _interopRequireDefault(_contact);
 
-var _portfolioitem = __webpack_require__(90);
-
-var _portfolioitem2 = _interopRequireDefault(_portfolioitem);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -10338,9 +10323,7 @@ document.addEventListener('DOMContentLoaded', function () {
           null,
           _react2.default.createElement(_menu2.default, null),
           _react2.default.createElement(_home2.default, null),
-          _react2.default.createElement(_portfolio2.default, { title: 'Daily exp app',
-            desc: 'super aplikacja111'
-          }),
+          _react2.default.createElement(_portfolio2.default, null),
           _react2.default.createElement(_skills2.default, null),
           _react2.default.createElement(_contact2.default, null)
         );
@@ -10394,19 +10377,52 @@ var PortfolioItem = function (_React$Component) {
   _createClass(PortfolioItem, [{
     key: 'render',
     value: function render() {
+      var items = [{
+        title: 'Cat Shelter App',
+        img: './img/cat.jpg',
+        desc: 'Simple application in react '
+      }, { title: 'Wedding page',
+        img: './img/background.gif',
+        desc: 'Responsive page with HTML, CSS, JS'
+      }, { title: "Javascript code example",
+        img: './img/code.jpg',
+        desc: "Slider, gallery, menu, to do list"
+      }, { title: "NASA API Challenge",
+        img: './img/world.jpg',
+        desc: "Photogallery - Jquery & AJAX/REST"
+      }, { title: "Daily expense app",
+        img: './img/expense.png',
+        desc: "Application created in React"
+      }, { title: "Sit on chair",
+        img: './img/cat.jpg',
+        desc: "Page created with HTML, CSS, JS"
+      }];
+
+      var projects = items.map(function (elem, index) {
+        return _react2.default.createElement(
+          'li',
+          { className: 'portfolio__list__item', key: elem.title },
+          _react2.default.createElement(
+            'div',
+            { className: 'backgroundImage', style: { backgroundImage: 'url(' + elem.img + ')' } },
+            _react2.default.createElement(
+              'h4',
+              null,
+              elem.title
+            ),
+            _react2.default.createElement(
+              'p',
+              null,
+              elem.desc
+            )
+          )
+        );
+      });
+
       return _react2.default.createElement(
-        'div',
+        'ul',
         null,
-        _react2.default.createElement(
-          'h1',
-          null,
-          this.props.title
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          this.props.desc
-        )
+        projects
       );
     }
   }]);
