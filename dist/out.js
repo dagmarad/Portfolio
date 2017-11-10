@@ -4737,8 +4737,19 @@ var icons = {
     { width: '50', height: '50', viewBox: '0 0 256 256', xmlns: 'http://www.w3.org/2000/svg', preserveAspectRatio: 'xMinYMin meet' },
     _react2.default.createElement('path', { fill: '#F26522', d: 'M0 0h256v256H0z' }),
     _react2.default.createElement('path', { d: 'M105.54 159.96h39.15V149.3h-27.1v-16.5h24.9v-10.65h-24.9V106.7h27V96.03h-39.1v63.92zM197 142.6c0-12.78-.87-15.56-18.05-19.7-11.03-2.67-11.22-2.87-11.22-10.16 0-5.57 1.44-7.3 9.6-7.3 5.56 0 11.8.77 17.08 1.93l1.4-10.18c-6.3-1.5-13-2.2-18.6-2.2-16.2 0-21.5 5.7-21.5 17.3 0 13.52 2.1 16.5 17.6 19.95 11.5 2.5 11.7 3.07 11.7 10.2 0 6.12-1.4 7.94-10.12 7.94-6.33 0-12.1-1.13-18.04-2.95l-2.12 9.5c4.24 2.02 12.7 3.84 19.98 3.84 18.9 0 22.46-6.26 22.46-18.35zm22.26-23.8c0-9.8 4.7-11.72 16.03-11.72 2 0 6.2.3 9 .86l.7-9.8c-2.9-.66-7.5-1.14-11.1-1.14-17.47 0-26.5 5.37-26.5 22.27v23.32c0 11 3.3 18.3 19.8 18.3 15.05 0 19.7-7.5 19.7-17.5v-4.6c0-11.1-4.7-15.9-16.36-15.9-4.1 0-8.06.6-11.4 1.7v-5.96zm9.6 14.3c4.22 0 6.43 1.43 6.43 6.03v4.7c0 4.9-2 7-8 7-6.1 0-8.1-1.72-8.1-7v-8.73c2.7-1.15 6.1-2 9.6-2z', fill: '#FFF' })
-  )
-};
+  ),
+  gitMenu: _react2.default.createElement(
+    'svg',
+    { xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 32 32', width: '25', height: '25' },
+    _react2.default.createElement('path', { d: 'M 16 4 C 9.371094 4 4 9.371094 4 16 C 4 21.300781 7.4375 25.800781 12.207031 27.386719 C 12.808594 27.496094 13.027344 27.128906 13.027344 26.808594 C 13.027344 26.523438 13.015625 25.769531 13.011719 24.769531 C 9.671875 25.492188 8.96875 23.160156 8.96875 23.160156 C 8.421875 21.773438 7.636719 21.402344 7.636719 21.402344 C 6.546875 20.660156 7.71875 20.675781 7.71875 20.675781 C 8.921875 20.761719 9.554688 21.910156 9.554688 21.910156 C 10.625 23.746094 12.363281 23.214844 13.046875 22.910156 C 13.15625 22.132813 13.46875 21.605469 13.808594 21.304688 C 11.144531 21.003906 8.34375 19.972656 8.34375 15.375 C 8.34375 14.0625 8.8125 12.992188 9.578125 12.152344 C 9.457031 11.851563 9.042969 10.628906 9.695313 8.976563 C 9.695313 8.976563 10.703125 8.65625 12.996094 10.207031 C 13.953125 9.941406 14.980469 9.808594 16 9.804688 C 17.019531 9.808594 18.046875 9.941406 19.003906 10.207031 C 21.296875 8.65625 22.300781 8.976563 22.300781 8.976563 C 22.957031 10.628906 22.546875 11.851563 22.421875 12.152344 C 23.191406 12.992188 23.652344 14.0625 23.652344 15.375 C 23.652344 19.984375 20.847656 20.996094 18.175781 21.296875 C 18.605469 21.664063 18.988281 22.398438 18.988281 23.515625 C 18.988281 25.121094 18.976563 26.414063 18.976563 26.808594 C 18.976563 27.128906 19.191406 27.503906 19.800781 27.386719 C 24.566406 25.796875 28 21.300781 28 16 C 28 9.371094 22.628906 4 16 4 Z',
+      fillRule: 'evenodd', id: 'surface1' })
+  ),
+  linkedinMenu: _react2.default.createElement(
+    'svg',
+    { xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 50 50', width: '32.5', height: '36' },
+    _react2.default.createElement('path', { fill: '#FF584C', d: 'M25,2C12.318,2,2,12.317,2,25s10.318,23,23,23s23-10.317,23-23S37.682,2,25,2z M18,35h-4V20h4V35z M16,17 c-1.105,0-2-0.895-2-2c0-1.105,0.895-2,2-2s2,0.895,2,2C18,16.105,17.105,17,16,17z M37,35h-4v-5v-2.5c0-1.925-1.575-3.5-3.5-3.5 S26,25.575,26,27.5V35h-4V20h4v1.816C27.168,20.694,28.752,20,30.5,20c3.59,0,6.5,2.91,6.5,6.5V35z'
+    })
+  ) };
 module.exports = icons;
 
 /***/ }),
@@ -9913,10 +9924,20 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var Menu = function (_React$Component) {
   _inherits(Menu, _React$Component);
 
-  function Menu() {
+  function Menu(props) {
     _classCallCheck(this, Menu);
 
-    return _possibleConstructorReturn(this, (Menu.__proto__ || Object.getPrototypeOf(Menu)).apply(this, arguments));
+    var _this = _possibleConstructorReturn(this, (Menu.__proto__ || Object.getPrototypeOf(Menu)).call(this, props));
+
+    _this.handleScroll = function () {
+      _this.setState({ backgroundColor: 'rgba(249,240,234,0.8)' });
+      console.log('slrol');
+    };
+
+    _this.state = {
+      backgroundColor: 'rgb(249,240,234)'
+    };
+    return _this;
   }
 
   _createClass(Menu, [{
@@ -9924,7 +9945,7 @@ var Menu = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        { className: 'menu container' },
+        { className: 'menu container', onDoubleClick: this.handleScroll, style: { backgroundColor: this.state.backgroundColor } },
         _react2.default.createElement('div', { className: 'menu__left' }),
         _react2.default.createElement(
           'div',
@@ -9980,26 +10001,18 @@ var Menu = function (_React$Component) {
               'li',
               null,
               _react2.default.createElement(
-                'div',
-                null,
-                _react2.default.createElement(
-                  'a',
-                  { href: 'https://www.linkedin.com/in/dagmara-gruszczynska/', target: 'blank' },
-                  _icons2.default.linkedin
-                )
+                'a',
+                { className: 'linkedin', href: 'https://www.linkedin.com/in/dagmara-gruszczynska/', target: 'blank' },
+                _icons2.default.linkedinMenu
               )
             ),
             _react2.default.createElement(
               'li',
               null,
               _react2.default.createElement(
-                'div',
-                null,
-                _react2.default.createElement(
-                  'a',
-                  { href: 'https://github.com/dagmarad/', target: 'blank' },
-                  _icons2.default.git
-                )
+                'a',
+                { className: 'git', href: 'https://github.com/dagmarad/', target: 'blank' },
+                _icons2.default.git
               )
             )
           )
@@ -10076,7 +10089,7 @@ var Portfolio = function (_React$Component) {
           { className: 'pointer' },
           _react2.default.createElement(
             'a',
-            { href: '#skillsDiv' },
+            { href: '#skills' },
             '>'
           )
         )
@@ -10247,7 +10260,7 @@ var Skills = function (_React$Component) {
                                         { className: 'pointer' },
                                         _react2.default.createElement(
                                                 'a',
-                                                { href: '#contactDiv' },
+                                                { href: '#contact' },
                                                 '>'
                                         )
                                 )

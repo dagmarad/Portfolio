@@ -9,10 +9,10 @@ class Portfolio extends React.Component{
         <div className="portfolio__list">
 
               <PortfolioItem/>
-            
+
 
         </div>
-        <div className="pointer"><a href="#skillsDiv">&gt;</a></div>
+        <div className="pointer"><a href="#skills">&gt;</a></div>
 
     </section>
     )

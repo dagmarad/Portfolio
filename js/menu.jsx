@@ -3,12 +3,23 @@ import ReactDOM from 'react-dom';
 import icons from './icons.jsx';
 
   class Menu extends React.Component{
+    constructor(props){
+    super(props);
+    this.state = {
+      backgroundColor: 'rgb(249,240,234)',
+    }
+  }
+    handleScroll=()=> {
+      this.setState({backgroundColor:'rgba(249,240,234,0.8)'});
+      console.log('slrol');
+    }
+
 
     render(){
-      return (
+          return (
 
-    <div className="menu container">
-        <div className="menu__left"></div>
+    <div className="menu container" onDoubleClick={this.handleScroll} style={{backgroundColor:this.state.backgroundColor}}>
+        <div className="menu__left" ></div>
         <div className="menu__center">
           <ul>
             <li><a href="#home">HOME</a></li>
@@ -19,8 +30,8 @@ import icons from './icons.jsx';
         </div>
         <div className="menu__right">
           <ul>
-            <li><div><a href="https://www.linkedin.com/in/dagmara-gruszczynska/" target="blank">{icons.linkedin}</a></div></li>
-            <li><div><a href="https://github.com/dagmarad/" target="blank">{icons.git}</a></div></li>
+            <li><a className="linkedin" href="https://www.linkedin.com/in/dagmara-gruszczynska/" target="blank">{icons.linkedinMenu}</a></li>
+            <li><a className="git" href="https://github.com/dagmarad/" target="blank">{icons.git}</a></li>
           </ul>
         </div>
       </div>

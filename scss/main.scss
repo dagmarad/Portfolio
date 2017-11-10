@@ -75,10 +75,14 @@ section {
     a{
       color:#FF584C;
       text-decoration:none;
+      display:block;
       &:active, &:hover{
         color:#b23d35;
       }
     }
+  }
+  .git{
+    margin-top: -3px;
   }
     li{
       text-decoration: none;
@@ -102,10 +106,15 @@ section {
       justify-content: flex-end;
       align-items: flex-end;
       min-width:20%;
+
       li{
         float:right;
       }
     }
+
+.container--mousemove{
+  background-color: rgba(249,240,234, 0.8);
+}
 
 .home__invitation{
   max-width: 600px;
