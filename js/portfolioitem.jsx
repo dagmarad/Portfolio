@@ -36,9 +36,9 @@ class PortfolioItem extends React.Component{
 
 const projects = items.map( (elem,index) =>{
   return (<li className="portfolio__list__item" key={elem.title}>
-  <div className="backgroundImage" style = {{backgroundImage: `url(${elem.img})`}}>
-  <h4>{elem.title}</h4>
-  <p>{elem.desc}</p></div></li>);
+  <div className="backgroundImage" style = {{backgroundImage: `url(${elem.img})`}}><div className="portfolio__list__item__overlay">
+  <h4 className="backgroundImage__header">{elem.title}</h4>
+  </div></div><p>{elem.desc}</p></li>);
 });
 
     return (<ul>

@@ -10406,15 +10406,19 @@ var PortfolioItem = function (_React$Component) {
             'div',
             { className: 'backgroundImage', style: { backgroundImage: 'url(' + elem.img + ')' } },
             _react2.default.createElement(
-              'h4',
-              null,
-              elem.title
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              elem.desc
+              'div',
+              { className: 'portfolio__list__item__overlay' },
+              _react2.default.createElement(
+                'h4',
+                { className: 'backgroundImage__header' },
+                elem.title
+              )
             )
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            elem.desc
           )
         );
       });

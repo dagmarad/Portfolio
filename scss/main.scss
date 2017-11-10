@@ -17,7 +17,7 @@ body{
 #app{
   max-width:1200px;
   width:96%;
-  background-color: rgb(226, 226, 226)
+  background-color: #F9F0EA
 }
 
 .container{
@@ -43,7 +43,9 @@ section {
   cursor: pointer;
   transform:rotate(90deg);
 
+
   a{
+    color:#FF584C;
     text-decoration:none;
     font-size:2rem;
     font-weight: bold;
@@ -73,7 +75,7 @@ section {
     a{
       color:#FF584C;
       text-decoration:none;
-      &:active, &.active, &:hover{
+      &:active, &:hover{
         color:#b23d35;
       }
     }
@@ -110,15 +112,17 @@ section {
   margin: auto;
 }
 #home{
-  background-image: url('../img/background.jpg');
-  background-repeat:no-repeat;
+  background-image: url('../img/hen.jpg');
   background-size:cover;
+  background-size: 100% 100%;
 }
+
 .portfolio{
   b{
     font-size:2rem;
   }
 }
+
 
 .portfolio__list ul{
   display: flex;
@@ -130,6 +134,7 @@ section {
 .portfolio__list__item{
   margin-left: 15px;
   margin-right: 15px;
+
 }
 
 .backgroundImage{
@@ -137,4 +142,16 @@ section {
   width:300px;
   repeat:no-repeat;
   background-size:cover;
+  border-radius: 6px;
+}
+.backgroundImage__header{
+  color:#fff;
+  font-size: 1.25rem;
+}
+
+.portfolio__list__item__overlay{
+    background-color: rgba(0,0,0,0.5);
+    height: 200px;
+    width:300px;
+    border-radius: 6px;
 }
