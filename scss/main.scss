@@ -15,8 +15,7 @@ body{
   background-color: #F9F0EA
 }
 #app{
-  max-width:1200px;
-  width:96%;
+
   background-color: #F9F0EA
 }
 
@@ -73,14 +72,16 @@ section {
     line-height: 10vh;
     position:fixed;
     a{
-      color:#FF584C;
       text-decoration:none;
       display:block;
-      &:active, &:hover{
-        color:#b23d35;
+      color:red;
+       &:hover {
+        color:black;
       }
+
     }
   }
+
   .git{
     margin-top: -3px;
   }
@@ -124,6 +125,9 @@ section {
   background-image: url('../img/hen.jpg');
   background-size:cover;
   background-size: 100% 100%;
+
+  width:99%;
+
 }
 
 .portfolio{

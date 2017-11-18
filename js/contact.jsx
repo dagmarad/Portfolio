@@ -5,7 +5,7 @@ import icons from './icons.jsx';
   class Contact extends React.Component{
     render(){
       return (
-        <section id="contact">
+        <section id="contact" className="container">
           <div className="wrapper">
             <h3>Contact</h3>
             <p>Would you like to contact me?</p>

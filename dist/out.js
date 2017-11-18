@@ -9767,7 +9767,7 @@ var Contact = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         'section',
-        { id: 'contact' },
+        { id: 'contact', className: 'container' },
         _react2.default.createElement(
           'div',
           { className: 'wrapper' },
@@ -9924,20 +9924,10 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var Menu = function (_React$Component) {
   _inherits(Menu, _React$Component);
 
-  function Menu(props) {
+  function Menu() {
     _classCallCheck(this, Menu);
 
-    var _this = _possibleConstructorReturn(this, (Menu.__proto__ || Object.getPrototypeOf(Menu)).call(this, props));
-
-    _this.handleScroll = function () {
-      _this.setState({ backgroundColor: 'rgba(249,240,234,0.8)' });
-      console.log('slrol');
-    };
-
-    _this.state = {
-      backgroundColor: 'rgb(249,240,234)'
-    };
-    return _this;
+    return _possibleConstructorReturn(this, (Menu.__proto__ || Object.getPrototypeOf(Menu)).apply(this, arguments));
   }
 
   _createClass(Menu, [{
@@ -9945,7 +9935,7 @@ var Menu = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        { className: 'menu container', onDoubleClick: this.handleScroll, style: { backgroundColor: this.state.backgroundColor } },
+        { className: 'menu container container--mousemove' },
         _react2.default.createElement('div', { className: 'menu__left' }),
         _react2.default.createElement(
           'div',
@@ -10073,7 +10063,7 @@ var Portfolio = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         'section',
-        { id: 'portfolio' },
+        { id: 'portfolio', className: 'container' },
         _react2.default.createElement(
           'h3',
           null,
@@ -10149,7 +10139,7 @@ var Skills = function (_React$Component) {
                 value: function render() {
                         return _react2.default.createElement(
                                 'section',
-                                { id: 'skills' },
+                                { id: 'skills', className: 'container' },
                                 _react2.default.createElement(
                                         'h2',
                                         null,
