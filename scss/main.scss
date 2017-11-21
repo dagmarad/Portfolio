@@ -52,20 +52,24 @@ section {
 }
 .skills_better{
   margin:auto;
+
 }
 
 .skills__list{
   display: flex;
   flex-direction: row;
   flex-wrap:wrap;
-  margin:auto;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .skills__list__item{
   list-style-type: none;
   min-width:33%;
-  min-height:150px;
+  min-height:100px;
   margin-top:25px;
+  text-align: center;
 }
 
 .menu{

@@ -10162,7 +10162,7 @@ var Skills = function (_React$Component) {
                                                         ' ',
                                                         _icons2.default.html,
                                                         _react2.default.createElement(
-                                                                'p',
+                                                                'h3',
                                                                 null,
                                                                 'HTML'
                                                         )
@@ -10172,7 +10172,7 @@ var Skills = function (_React$Component) {
                                                         { className: 'skills__list__item' },
                                                         _icons2.default.css,
                                                         _react2.default.createElement(
-                                                                'p',
+                                                                'h3',
                                                                 null,
                                                                 'CSS'
                                                         )
@@ -10182,7 +10182,7 @@ var Skills = function (_React$Component) {
                                                         { className: 'skills__list__item' },
                                                         _icons2.default.sass,
                                                         _react2.default.createElement(
-                                                                'p',
+                                                                'h3',
                                                                 null,
                                                                 'SASS'
                                                         )
@@ -10192,7 +10192,7 @@ var Skills = function (_React$Component) {
                                                         { className: 'skills__list__item' },
                                                         _icons2.default.javascript,
                                                         _react2.default.createElement(
-                                                                'p',
+                                                                'h3',
                                                                 null,
                                                                 'Javascript'
                                                         )
@@ -10202,7 +10202,7 @@ var Skills = function (_React$Component) {
                                                         { className: 'skills__list__item' },
                                                         _icons2.default.jquery,
                                                         _react2.default.createElement(
-                                                                'p',
+                                                                'h3',
                                                                 null,
                                                                 'Jquery'
                                                         )
@@ -10212,7 +10212,7 @@ var Skills = function (_React$Component) {
                                                         { className: 'skills__list__item' },
                                                         _icons2.default.es6,
                                                         _react2.default.createElement(
-                                                                'p',
+                                                                'h3',
                                                                 null,
                                                                 'ECMASCRIPT6'
                                                         )
@@ -10222,7 +10222,7 @@ var Skills = function (_React$Component) {
                                                         { className: 'skills__list__item' },
                                                         _icons2.default.react,
                                                         _react2.default.createElement(
-                                                                'p',
+                                                                'h3',
                                                                 null,
                                                                 'React'
                                                         )
@@ -10232,7 +10232,7 @@ var Skills = function (_React$Component) {
                                                         { className: 'skills__list__item' },
                                                         _icons2.default.webpack,
                                                         _react2.default.createElement(
-                                                                'p',
+                                                                'h3',
                                                                 null,
                                                                 'Webpack'
                                                         )
@@ -10242,7 +10242,7 @@ var Skills = function (_React$Component) {
                                                         { className: 'skills__list__item' },
                                                         _icons2.default.github,
                                                         _react2.default.createElement(
-                                                                'p',
+                                                                'h3',
                                                                 null,
                                                                 'GIT'
                                                         )
