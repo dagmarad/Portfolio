@@ -5,8 +5,9 @@ import PortfolioItem from './portfolioitem.jsx';
 class Portfolio extends React.Component{
   render(){
     return (<section id="portfolio" className="container">
-        <h3>My projects</h3>
         <div className="portfolio__list">
+        <h3>My projects</h3>
+
 
               <PortfolioItem/>
 

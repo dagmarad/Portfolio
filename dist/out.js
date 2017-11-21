@@ -9770,7 +9770,7 @@ var Contact = function (_React$Component) {
         { id: 'contact', className: 'container' },
         _react2.default.createElement(
           'div',
-          { className: 'wrapper' },
+          { className: 'home__invitation' },
           _react2.default.createElement(
             'h3',
             null,
@@ -9792,15 +9792,15 @@ var Contact = function (_React$Component) {
             null,
             _icons2.default.message,
             ' Send e-mail at gruszczynska.dagmara@gmail.com'
-          ),
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'pointer less-than' },
           _react2.default.createElement(
-            'div',
-            { className: 'pointer' },
-            _react2.default.createElement(
-              'a',
-              { href: '#home' },
-              '<'
-            )
+            'a',
+            { href: '#home' },
+            '<'
           )
         )
       );
@@ -9942,10 +9942,10 @@ var Menu = function (_React$Component) {
           { className: 'menu__center' },
           _react2.default.createElement(
             'ul',
-            null,
+            { className: 'menu__table' },
             _react2.default.createElement(
               'li',
-              null,
+              { className: 'menu__list' },
               _react2.default.createElement(
                 'a',
                 { href: '#home' },
@@ -9954,7 +9954,7 @@ var Menu = function (_React$Component) {
             ),
             _react2.default.createElement(
               'li',
-              null,
+              { className: 'menu__list' },
               _react2.default.createElement(
                 'a',
                 { href: '#portfolio' },
@@ -9963,7 +9963,7 @@ var Menu = function (_React$Component) {
             ),
             _react2.default.createElement(
               'li',
-              null,
+              { className: 'menu__list' },
               _react2.default.createElement(
                 'a',
                 { href: '#skills' },
@@ -9972,7 +9972,7 @@ var Menu = function (_React$Component) {
             ),
             _react2.default.createElement(
               'li',
-              null,
+              { className: 'menu__list' },
               _react2.default.createElement(
                 'a',
                 { href: '#contact' },
@@ -9983,13 +9983,13 @@ var Menu = function (_React$Component) {
         ),
         _react2.default.createElement(
           'div',
-          { className: 'menu__right' },
+          { className: 'menu__right ' },
           _react2.default.createElement(
             'ul',
             null,
             _react2.default.createElement(
               'li',
-              null,
+              { className: 'menu__list' },
               _react2.default.createElement(
                 'a',
                 { className: 'linkedin', href: 'https://www.linkedin.com/in/dagmara-gruszczynska/', target: 'blank' },
@@ -9998,7 +9998,7 @@ var Menu = function (_React$Component) {
             ),
             _react2.default.createElement(
               'li',
-              null,
+              { className: 'menu__list' },
               _react2.default.createElement(
                 'a',
                 { className: 'git', href: 'https://github.com/dagmarad/', target: 'blank' },
@@ -10065,13 +10065,13 @@ var Portfolio = function (_React$Component) {
         'section',
         { id: 'portfolio', className: 'container' },
         _react2.default.createElement(
-          'h3',
-          null,
-          'My projects'
-        ),
-        _react2.default.createElement(
           'div',
           { className: 'portfolio__list' },
+          _react2.default.createElement(
+            'h3',
+            null,
+            'My projects'
+          ),
           _react2.default.createElement(_portfolioitem2.default, null)
         ),
         _react2.default.createElement(
@@ -10141,107 +10141,111 @@ var Skills = function (_React$Component) {
                                 'section',
                                 { id: 'skills', className: 'container' },
                                 _react2.default.createElement(
-                                        'h2',
-                                        null,
-                                        ' Moje umiej\u0119tno\u015Bci'
-                                ),
-                                _react2.default.createElement(
-                                        'p',
-                                        null,
-                                        'Potrafi\u0119 pisa\u0107 fajny i weso\u0142y kod. U\u017Cywam Webpacka i Gulpa, korzystam z Sassa. Jak renderuje to tylko w Reakcie. Ca\u0142a ta strona jest w Reakcie bo bardzo go lubi\u0119. Chcia\u0142abym pracowa\u0107 z reactem, bo przekazywanie props\xF3w od dzieci do rodzic\xF3w to moje hobby. Poza tym lubi\u0119 p\u0119tle w Javascripcie. Najbardziej te podw\xF3jne. Jak mi si\u0119 nie chc\u0119 to u\u017Cywam Jquery bo jest szybciej, ale nic nie odaje przyjemno\u015Bci jakiej czuj\u0119, kiedy pisze document query selector'
-                                ),
-                                _react2.default.createElement(
                                         'div',
-                                        { className: 'skills__list' },
+                                        { className: 'skills_better' },
                                         _react2.default.createElement(
-                                                'div',
-                                                { className: 'skills__list__item' },
-                                                ' ',
-                                                _icons2.default.html,
-                                                _react2.default.createElement(
-                                                        'p',
-                                                        null,
-                                                        'HTML'
-                                                )
+                                                'h2',
+                                                null,
+                                                ' Moje umiej\u0119tno\u015Bci'
                                         ),
                                         _react2.default.createElement(
-                                                'div',
-                                                { className: 'skills__list__item' },
-                                                _icons2.default.css,
-                                                _react2.default.createElement(
-                                                        'p',
-                                                        null,
-                                                        'CSS'
-                                                )
+                                                'p',
+                                                null,
+                                                'Potrafi\u0119 pisa\u0107 fajny i weso\u0142y kod. U\u017Cywam Webpacka i Gulpa, korzystam z Sassa. Jak renderuje to tylko w Reakcie. Ca\u0142a ta strona jest w Reakcie bo bardzo go lubi\u0119. Chcia\u0142abym pracowa\u0107 z reactem, bo przekazywanie props\xF3w od dzieci do rodzic\xF3w to moje hobby. Poza tym lubi\u0119 p\u0119tle w Javascripcie. Najbardziej te podw\xF3jne. Jak mi si\u0119 nie chc\u0119 to u\u017Cywam Jquery bo jest szybciej, ale nic nie odaje przyjemno\u015Bci jakiej czuj\u0119, kiedy pisze document query selector'
                                         ),
                                         _react2.default.createElement(
-                                                'div',
-                                                { className: 'skills__list__item' },
-                                                _icons2.default.sass,
+                                                'ul',
+                                                { className: 'skills__list' },
                                                 _react2.default.createElement(
-                                                        'p',
-                                                        null,
-                                                        'SASS'
-                                                )
-                                        ),
-                                        _react2.default.createElement(
-                                                'div',
-                                                { className: 'skills__list__item' },
-                                                _icons2.default.javascript,
+                                                        'li',
+                                                        { className: 'skills__list__item' },
+                                                        ' ',
+                                                        _icons2.default.html,
+                                                        _react2.default.createElement(
+                                                                'p',
+                                                                null,
+                                                                'HTML'
+                                                        )
+                                                ),
                                                 _react2.default.createElement(
-                                                        'p',
-                                                        null,
-                                                        'Javascript'
-                                                )
-                                        ),
-                                        _react2.default.createElement(
-                                                'div',
-                                                { className: 'skills__list__item' },
-                                                _icons2.default.jquery,
+                                                        'li',
+                                                        { className: 'skills__list__item' },
+                                                        _icons2.default.css,
+                                                        _react2.default.createElement(
+                                                                'p',
+                                                                null,
+                                                                'CSS'
+                                                        )
+                                                ),
                                                 _react2.default.createElement(
-                                                        'p',
-                                                        null,
-                                                        'Jquery'
-                                                )
-                                        ),
-                                        _react2.default.createElement(
-                                                'div',
-                                                { className: 'skills__list__item' },
-                                                _icons2.default.es6,
+                                                        'li',
+                                                        { className: 'skills__list__item' },
+                                                        _icons2.default.sass,
+                                                        _react2.default.createElement(
+                                                                'p',
+                                                                null,
+                                                                'SASS'
+                                                        )
+                                                ),
                                                 _react2.default.createElement(
-                                                        'p',
-                                                        null,
-                                                        'ECMASCRIPT6'
-                                                )
-                                        ),
-                                        _react2.default.createElement(
-                                                'div',
-                                                { className: 'skills__list__item' },
-                                                _icons2.default.react,
+                                                        'li',
+                                                        { className: 'skills__list__item' },
+                                                        _icons2.default.javascript,
+                                                        _react2.default.createElement(
+                                                                'p',
+                                                                null,
+                                                                'Javascript'
+                                                        )
+                                                ),
                                                 _react2.default.createElement(
-                                                        'p',
-                                                        null,
-                                                        'React'
-                                                )
-                                        ),
-                                        _react2.default.createElement(
-                                                'div',
-                                                { className: 'skills__list__item' },
-                                                _icons2.default.webpack,
+                                                        'li',
+                                                        { className: 'skills__list__item' },
+                                                        _icons2.default.jquery,
+                                                        _react2.default.createElement(
+                                                                'p',
+                                                                null,
+                                                                'Jquery'
+                                                        )
+                                                ),
                                                 _react2.default.createElement(
-                                                        'p',
-                                                        null,
-                                                        'Webpack'
-                                                )
-                                        ),
-                                        _react2.default.createElement(
-                                                'div',
-                                                { className: 'skills__list__item' },
-                                                _icons2.default.github,
+                                                        'li',
+                                                        { className: 'skills__list__item' },
+                                                        _icons2.default.es6,
+                                                        _react2.default.createElement(
+                                                                'p',
+                                                                null,
+                                                                'ECMASCRIPT6'
+                                                        )
+                                                ),
                                                 _react2.default.createElement(
-                                                        'p',
-                                                        null,
-                                                        'GIT'
+                                                        'li',
+                                                        { className: 'skills__list__item' },
+                                                        _icons2.default.react,
+                                                        _react2.default.createElement(
+                                                                'p',
+                                                                null,
+                                                                'React'
+                                                        )
+                                                ),
+                                                _react2.default.createElement(
+                                                        'li',
+                                                        { className: 'skills__list__item' },
+                                                        _icons2.default.webpack,
+                                                        _react2.default.createElement(
+                                                                'p',
+                                                                null,
+                                                                'Webpack'
+                                                        )
+                                                ),
+                                                _react2.default.createElement(
+                                                        'li',
+                                                        { className: 'skills__list__item' },
+                                                        _icons2.default.github,
+                                                        _react2.default.createElement(
+                                                                'p',
+                                                                null,
+                                                                'GIT'
+                                                        )
                                                 )
                                         )
                                 ),

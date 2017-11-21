@@ -12,16 +12,17 @@ body{
   margin: 0;
   padding:0;
 
-  background-color: #F9F0EA
+  background-color: #F9F0EA;
 }
 #app{
 
-  background-color: #F9F0EA
+  background-color: #F9F0EA;
+  width:100%;
+}
+li{
+    list-style-type: none;
 }
 
-.container{
-width:100vw;
-}
 p{
   max-width:1000px;
   margin: 0 auto;
@@ -34,30 +35,34 @@ section {
   align-items: center;
   text-align: left;
   flex-direction:column;
-  width:100vw;
+
+
 }
 
 .pointer{
   cursor: pointer;
   transform:rotate(90deg);
-  padding-bottom: 30px;
-
+  border:1px solid red;
   a{
     color:#FF584C;
     text-decoration:none;
     font-size:2rem;
     font-weight: bold;
-
   }
+}
+.skills_better{
+  margin:auto;
 }
 
 .skills__list{
   display: flex;
   flex-direction: row;
   flex-wrap:wrap;
+  margin:auto;
 }
 
 .skills__list__item{
+  list-style-type: none;
   min-width:33%;
   min-height:150px;
   margin-top:25px;
@@ -71,6 +76,7 @@ section {
     font-weight:bold;
     line-height: 10vh;
     position:fixed;
+    width:100%;
     a{
       text-decoration:none;
       display:block;
@@ -84,19 +90,21 @@ section {
   .git{
     margin-top: -4px;
     margin-right: 5px;
+    list-style-type: none;
 
   }
   .linkedin{
     margin-right: 15px;
+
   }
 
-    li{
-      text-decoration: none;
+    .menu__list{
+      list-style-type: none;
       display:inline-block;
       margin-left: 5px;
       margin-right: 5px;
     }
-    ul{
+    .menu__table{
       padding:0;
       margin: auto;
     }
@@ -109,6 +117,7 @@ section {
       min-width:60%;
     }
     .menu__right{
+
       justify-content: flex-end;
       align-items: flex-end;
       min-width:20%;
@@ -129,7 +138,7 @@ section {
 #home{
   background-image: url('../img/hen.jpg');
   background-size:cover;
-  width:100vw;
+
 
 }
 
@@ -141,6 +150,7 @@ section {
 
 .portfolio__list{
   max-width:1200px;
+  margin:auto;
 }
 .portfolio__list ul{
   display: flex;

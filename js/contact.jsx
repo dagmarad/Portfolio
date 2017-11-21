@@ -6,13 +6,13 @@ import icons from './icons.jsx';
     render(){
       return (
         <section id="contact" className="container">
-          <div className="wrapper">
+          <div className="home__invitation">
             <h3>Contact</h3>
             <p>Would you like to contact me?</p>
             <p>{icons.phone} Please call me at 609094679 </p>
             <p>{icons.message} Send e-mail at gruszczynska.dagmara@gmail.com</p>
-            <div className="pointer"><a href="#home">&lt;</a></div>
           </div>
+          <div className="pointer less-than"><a href="#home">&lt;</a></div>
         </section>)
     }
   }
