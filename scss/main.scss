@@ -42,13 +42,13 @@ section {
 .pointer{
   cursor: pointer;
   transform:rotate(90deg);
-  border:1px solid red;
   a{
     color:#FF584C;
     text-decoration:none;
     font-size:2rem;
     font-weight: bold;
   }
+
 }
 .skills_better{
   margin:auto;
@@ -70,6 +70,7 @@ section {
   min-height:100px;
   margin-top:25px;
   text-align: center;
+
 }
 
 .menu{
@@ -85,7 +86,7 @@ section {
       text-decoration:none;
       display:block;
       color:red;
-       &:hover {
+      &.active{
         color:black;
       }
     }
