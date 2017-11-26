@@ -1,13 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import icons from './icons.jsx';
-import Menu from './menu.jsx';
 
   class Contact extends React.Component{
     render(){
       return (
         <section id="contact" className="container">
-          <Menu/>
           <div className="home__invitation">
             <h3>Contact</h3>
             <p>Would you like to contact me?</p>

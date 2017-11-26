@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Menu from './menu.jsx';
 
 
   class Home extends React.Component{
     render(){
       return (
     <section  id="home" >
+      <Menu/>
         <div className="home__invitation">
           <h3>Cześć, mam na imię Dagmara</h3>
           <p>Niedawno ukończyłam dwumiesięczny kurs Front-end Developer w Coders Lab i teraz szukam pracy. Znam różne fajne technologie.

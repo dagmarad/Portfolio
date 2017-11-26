@@ -17,7 +17,7 @@ import {Router, Route, Link, IndexLink, IndexRoute, hashHistory} from 'react-rou
          <div className="menu__left" ></div>
           <div className="menu__center">
             <ul>
-              <li className="menu__list"><NavLink to='/home'  activeClassName="active">PORTFOLIO</NavLink></li>
+              <li className="menu__list"><NavLink to='/home'  activeClassName="active">HOME</NavLink></li>
               <li className="menu__list"><NavLink to='/portfolio' activeClassName="active">PORTFOLIO</NavLink></li>
                <li className="menu__list"><NavLink to='/skills' activeClassName="active">SKILLS</NavLink></li>
               <li className="menu__list"><NavLink to='/contact' activeClassName="active">CONTACT</NavLink></li>
