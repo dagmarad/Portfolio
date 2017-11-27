@@ -14744,30 +14744,6 @@ var _home = __webpack_require__(84);
 
 var _home2 = _interopRequireDefault(_home);
 
-var _menu = __webpack_require__(85);
-
-var _menu2 = _interopRequireDefault(_menu);
-
-var _portfolio = __webpack_require__(86);
-
-var _portfolio2 = _interopRequireDefault(_portfolio);
-
-var _skills = __webpack_require__(87);
-
-var _skills2 = _interopRequireDefault(_skills);
-
-var _contact = __webpack_require__(83);
-
-var _contact2 = _interopRequireDefault(_contact);
-
-var _NavLink = __webpack_require__(48);
-
-var _NavLink2 = _interopRequireDefault(_NavLink);
-
-var _reactRouter = __webpack_require__(81);
-
-var _reactRouterDom = __webpack_require__(139);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -14775,6 +14751,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+;
 
 var View = function (_React$Component) {
   _inherits(View, _React$Component);
