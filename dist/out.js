@@ -9473,7 +9473,7 @@ var Skills = function (_React$Component) {
                                         'div',
                                         { className: 'skills_better' },
                                         _react2.default.createElement(
-                                                'h2',
+                                                'h3',
                                                 null,
                                                 ' Moje umiej\u0119tno\u015Bci'
                                         ),

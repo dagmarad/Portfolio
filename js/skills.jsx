@@ -9,7 +9,7 @@ class Skills extends React.Component{
       <section id="skills" className="container">
         <Menu/>
     <div className="skills_better">
-    <h2> Moje umiejętności</h2>
+    <h3> Moje umiejętności</h3>
     <p>Potrafię pisać fajny i wesoły kod. Używam Webpacka i Gulpa, korzystam z Sassa. Jak renderuje to tylko w Reakcie. Cała ta strona jest w Reakcie bo bardzo go lubię. Chciałabym pracować z reactem, bo przekazywanie propsów od dzieci do rodziców to moje hobby. Poza tym lubię pętle w Javascripcie. Najbardziej te podwójne. Jak mi się nie chcę to używam Jquery bo jest szybciej, ale nic nie odaje przyjemności jakiej czuję, kiedy pisze document query selector</p>
 
       <ul className="skills__list">
