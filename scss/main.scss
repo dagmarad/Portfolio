@@ -26,7 +26,7 @@ p{
   margin: 0 auto;
 }
 section {
-  height:90vh;
+  min-height:90vh;
   padding-top: 10vh;
   display:flex;
   justify-content: center;
@@ -127,7 +127,7 @@ h3{
   padding-right: 5px;
   p{
     margin:0;
-    padding:0;
+
   }
 }
 #home{
@@ -136,7 +136,6 @@ h3{
 }
 .portfolio__table{
   margin:0;
-  padding:0;
 }
 
 .portfolio{
@@ -212,6 +211,10 @@ h3{
    margin-left: 10px;
    margin-right: 10px;
  }
+ .skills__list{
+   margin: 0px;
+   padding:0;
+ }
 }
 @media(min-width: 320px) and (max-width: 556px){
   .menu__center{
@@ -239,12 +242,12 @@ h3{
   .menu__right{
     min-width: 20%;
     margin: 0 ;
-    padding:0;
+
   }
   .social__icons{
       position:relative;
       margin: 0 ;
-      padding:0;
+
   }
   .social{
     position:absolute;
@@ -263,8 +266,8 @@ h3{
     height: 180px;
     width:250px;
   }
-  .skills_container{
-    margin-left: 10px;
-    margin-right: 10px;
+  .skills__list{
+    margin: 0;
+    padding:0;
   }
 }
