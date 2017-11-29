@@ -9309,12 +9309,12 @@ var Menu = function (_React$Component) {
               _react2.default.createElement(
                 'li',
                 { className: 'menu__list social' },
-                _react2.default.createElement(_reactSocialIcons.SocialIcon, { className: 'socialIcon', url: 'http://linkedin.com/in/dagmara-gruszczynska/', color: '#FF584C' })
+                _react2.default.createElement(_reactSocialIcons.SocialIcon, { url: 'http://linkedin.com/in/dagmara-gruszczynska/', style: { height: 30, width: 30 }, color: '#FF584C' })
               ),
               _react2.default.createElement(
                 'li',
                 { className: 'menu__list social' },
-                _react2.default.createElement(_reactSocialIcons.SocialIcon, { className: 'socialIcon', url: 'http://github.com/dagmarad', color: '#FF584C' })
+                _react2.default.createElement(_reactSocialIcons.SocialIcon, { url: 'http://github.com/dagmarad', style: { height: 30, width: 30 }, color: '#FF584C' })
               )
             )
           )
@@ -9465,7 +9465,7 @@ var Skills = function (_React$Component) {
                                 _react2.default.createElement(_menu2.default, null),
                                 _react2.default.createElement(
                                         'div',
-                                        { className: 'skills_better' },
+                                        { className: 'skills_container' },
                                         _react2.default.createElement(
                                                 'h3',
                                                 null,
@@ -15017,7 +15017,7 @@ var PortfolioItem = function (_React$Component) {
 
       return _react2.default.createElement(
         'ul',
-        null,
+        { className: 'portfolio__table' },
         projects
       );
     }

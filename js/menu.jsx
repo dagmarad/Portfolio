@@ -26,8 +26,9 @@ import {Router, Route, Link, IndexLink, IndexRoute, hashHistory} from 'react-rou
           </div>
             <div className="menu__right">
               <ul className="social__icons">
-                 <li className="menu__list social"><SocialIcon className="socialIcon" url="http://linkedin.com/in/dagmara-gruszczynska/" color="#FF584C"  /></li>
-                <li className="menu__list social"><SocialIcon className="socialIcon" url="http://github.com/dagmarad" color="#FF584C" /></li>
+                 <li className="menu__list social"><SocialIcon url="http://linkedin.com/in/dagmara-gruszczynska/" style={{ height: 30, width: 30 }} color="#FF584C"  /></li>
+                <li className="menu__list social"><SocialIcon url="http://github.com/dagmarad" style={{ height: 30, width: 30 }} color="#FF584C" />
+                </li>
               </ul>
           </div>
         </div>

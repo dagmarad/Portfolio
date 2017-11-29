@@ -41,7 +41,7 @@ const projects = items.map( (elem,index) =>{
   </div></div><p>{elem.desc}</p></li>);
 });
 
-    return (<ul>
+    return (<ul className="portfolio__table">
       {projects}
     </ul>
     )
