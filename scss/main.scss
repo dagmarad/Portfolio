@@ -17,60 +17,6 @@ body{
   background-color: #F9F0EA;
   width:100%;
 }
-@media(min-width: 320px) and (max-width: 556px){
-  .menu__center{
-    font-size:0.7rem;
-    min-width: 80%;
-    margin:0;
-    padding:0;
-    min-width: 80%;
-    text-align: left;
-    ul{
-      margin:0;
-      padding:0;
-      li{
-        margin:0;
-        margin-right: 2px;
-        padding:0;
-      }
-    }
-  }
-  .menu__right .menu__list{
-    margin-left: 2px;
-    margin-right:2px;
-  }
-  .menu__left{
-    display:none;
-    min-width: 0%;
-  }
-  .menu__right{
-    min-width: 20%;
-  }
-.linkedin, .git{
-  width: 15px;
-  height: 15px;
- }
-}
-@media(min-width: 557px)and (max-width: 1024px){
-  .menu__center{
-    font-size: 0.9rem;
- }
-.menu__right .menu__list{
-  margin-left: 2px;
-  margin-right:2px;
-}
-.menu__left{
-  display:none;
-  min-width: 0%;
-}
-.linkedin, .git{
-  width: 20px;
-  height: 20px;
-  margin:0;
-  margin-right: 1px;
-  padding:0;
- }
-}
 
 li{
     list-style-type: none;
@@ -140,18 +86,12 @@ h3{
       }
     }
   }
-  .git{
-    margin-top: -3px;
-    margin-right: 5px;
-    list-style-type: none;
-    width: 30px;
-    height: 30px;
-  }
-  .linkedin{
-    margin-right: 15px;
-    width: 30px;
-    height: 30px;
-  }
+.social__icon{
+  a{
+  width:35px;
+  height: 35px;
+ }
+}
     .menu__list{
       list-style-type: none;
       display:inline-block;
@@ -183,12 +123,19 @@ h3{
 }
 .home__invitation{
   max-width: 600px;
-  margin: auto;
+  margin:auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  p{
+    margin:0;
+    padding:0;
+  }
 }
 #home{
   background-image: url('../img/hen.jpg');
   background-size:cover;
 }
+
 .portfolio{
   b{
     font-size:2rem;
@@ -225,4 +172,59 @@ h3{
     height: 200px;
     width:300px;
     border-radius: 6px;
+}
+
+@media(min-width: 557px)and (max-width: 1024px){
+  .menu__center{
+    font-size: 1.2rem;
+ }
+ .menu__right .menu__list{
+  margin-left: 2px;
+  margin-right:2px;
+}
+  .menu__left{
+  display:none;
+  min-width: 0%;
+}
+}
+@media(min-width: 320px) and (max-width: 556px){
+  .menu__center{
+    font-size:0.8rem;
+    min-width: 80%;
+    margin:0;
+    padding:0;
+    min-width: 80%;
+    text-align: left;
+    ul{
+      margin:0;
+      padding:0;
+      li{
+        margin:0;
+        margin-right: 5px;
+        padding:0;
+      }
+    }
+  }
+  .menu__left{
+    display:none;
+    min-width: 0%;
+  }
+  .menu__right{
+    min-width: 20%;
+    margin: 0 ;
+    padding:0;
+  }
+  .social__icons{
+      position:relative;
+      margin: 0 ;
+      padding:0;
+  }
+  .social{
+    position:absolute;
+    top:0px;
+    right:10px;
+    &:last-child{
+      right:45px;
+    }
+  }
 }

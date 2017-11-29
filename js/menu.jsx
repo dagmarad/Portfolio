@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import icons from './icons.jsx';
+import { SocialIcon } from 'react-social-icons';
 import NavLink from './NavLink.jsx';
 import {Router, Route, Link, IndexLink, IndexRoute, hashHistory} from 'react-router';
 
@@ -24,9 +25,9 @@ import {Router, Route, Link, IndexLink, IndexRoute, hashHistory} from 'react-rou
               </ul>
           </div>
             <div className="menu__right">
-              <ul>
-                <li className="menu__list"><a className="linkedin" href="https://www.linkedin.com/in/dagmara-gruszczynska/" target="blank">{icons.linkedinMenu}</a></li>
-                <li className="menu__list"><a className="git" href="https://github.com/dagmarad/" target="blank">{icons.git}</a></li>
+              <ul className="social__icons">
+                 <li className="menu__list social"><SocialIcon className="socialIcon" url="http://linkedin.com/in/dagmara-gruszczynska/" color="#FF584C"  /></li>
+                <li className="menu__list social"><SocialIcon className="socialIcon" url="http://github.com/dagmarad" color="#FF584C" /></li>
               </ul>
           </div>
         </div>
