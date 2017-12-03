@@ -1,6 +1,6 @@
 const path = require("path");
 module.exports = {
-  entry: "./js/app.jsx",
+  entry: ["./js/app.jsx", "./js/granim.min.js"],
   output: {
       path: path.resolve("dist"),
       filename: "out.js"
