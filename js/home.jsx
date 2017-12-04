@@ -10,10 +10,11 @@ import Menu from './menu.jsx';
     <section  id="home" >
       <Menu/>
         <div className="home__invitation">
-          <canvas id="canvas-image-blending"></canvas>
-          <h3>Cześć, mam na imię Dagmara</h3>
-          <p>Niedawno ukończyłam dwumiesięczny kurs Front-end Developer w Coders Lab i teraz szukam pracy. Znam różne fajne technologie.
-          Z mojego portfolia dowiesz się, jakie są moje projekty oraz jakie znam technologię</p>
+
+          <h3>Hi, my name is Dagmara</h3>
+          <p><strong>I have finished front-end bootcamp course at Coders Lab and I&nbsp;want to start a career as Front-end developer.
+            Here is my portfolio created with ReactJS. Check my sample projects.</strong>
+          </p>
         </div>
 
         <div className="pointer"><a href="#portfolio">&gt;</a></div>

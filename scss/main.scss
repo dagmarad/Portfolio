@@ -11,19 +11,34 @@ body{
   text-align:center;
   margin: 0;
   padding:0;
-  background-color: #F9F0EA;
+
 }
 #app{
-  background-color: #F9F0EA;
+
   width:100%;
+}
+ul {
+  padding:0;
+  margin:0;
 }
 li{
     list-style-type: none;
 }
 
 p{
-  max-width:1000px;
+  max-width:600px;
   margin: 0 auto;
+  line-height:1.5em;
+  padding: 0 1rem;
+  text-align: center;
+}
+h4 {
+  margin: 0.5rem 0;
+}
+.container{
+  position:relative;
+  z-index:2;
+  color:#fff;
 }
 section {
   min-height:90vh;
@@ -34,6 +49,24 @@ section {
   text-align: left;
   flex-direction:column;
 }
+.home__invitation, .portfolio__list, .skills_container {
+  z-index: 2;
+  animation: appear 1s ease-out;
+}
+@keyframes appear {
+  0% {
+    transform: translateY(-1rem);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+
 .pointer{
   cursor: pointer;
   transform:rotate(90deg);
@@ -64,13 +97,23 @@ section {
 }
 h3{
   text-align: center;
+  font-size:1.5rem;
+  &::after{
+    content:'';
+    display:block;
+    margin:2rem auto;
+    background-color:#FF584C;
+    height:3px;
+    width:120px;
+
+  }
 }
 .menu{
     display:flex;
     height:10vh;
-    background-color: #F9F0EA;
+    background-color: 	rgba(255,255,255,0.8);
     font-weight:bold;
-    font-size:1.25rem;
+    font-size:1rem;
     line-height: 10vh;
     position:fixed;
     width:100%;
@@ -78,7 +121,6 @@ h3{
     text-align:center;
     padding:0;
     z-index:2;
-
     a{
       text-decoration:none;
       display:block;
@@ -88,10 +130,10 @@ h3{
       }
     }
   }
-.social__icon{
-  a{
-  width:35px;
-  height: 35px;
+.social__icons{
+  &:last-child{
+    margin-right:1rem;
+
  }
 }
     .menu__list{
@@ -99,10 +141,15 @@ h3{
       display:inline-block;
       margin-left: 5px;
       margin-right: 5px;
+      letter-spacing: 0.2rem;
     }
     .menu__table{
       padding:0;
       margin: auto;
+    }
+    .menu ul{
+      margin:0;
+      padding:0;
     }
     .menu__left{
       justify-content: flex-start;
@@ -120,14 +167,14 @@ h3{
         float:right;
       }
     }
-.container--mousemove{
-  background-color: rgba(249,240,234, 0.8);
-}
+
 .home__invitation{
-  max-width: 600px;
+  max-width: 500px;
+  text-align:center;
   margin:auto;
   padding-left: 5px;
   padding-right: 5px;
+  color:#fff;
 
   p, h3{
     margin:0;
@@ -137,7 +184,7 @@ h3{
 
 }
 #canvas-image-blending {
-    position: absolute;
+    position: fixed;
     display: block;
     width: 100%;
     height: 100%;
@@ -146,13 +193,11 @@ h3{
     bottom: 0;
     left: 0;
     z-index:1;
-    position:absolute;
     background-size: cover;
 }
 .portfolio__table{
   margin:0;
 }
-
 .portfolio{
   b{
     font-size:2rem;
@@ -170,31 +215,80 @@ h3{
     flex-wrap:wrap;
 }
 .portfolio__list__item{
-  margin-left: 15px;
-  margin-right: 15px;
+  margin: 15px;
 }
 .backgroundImage{
   height: 200px;
   width:300px;
-  repeat:no-repeat;
   background-size:cover;
   border-radius: 6px;
+  a{
+    position:absolute;
+    width:300px;
+    height:200px;
+    top:0;
+    left:0;
+  }
 }
 .backgroundImage__header{
   color:#fff;
   font-size: 1.25rem;
+  text-align: center;
+  padding-top: 86px;
+  transition: 1s;
+  margin: 0;
+  &::after{
+    content:'';
+    display:block;
+    margin:2rem auto;
+    background-color:transparent;
+    height:3px;
+    width:60px;
+    transition: 1s;
+
+  }
 }
+.backgroundImage__description{
+  text-align: center;
+  color: #fff;
+  transition: 1s;
+  padding: 100px 1rem 0;
+}
+
 .portfolio__list__item__overlay{
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(255, 88, 76, 0.8);
     height: 200px;
     width:300px;
     border-radius: 6px;
+    overflow: hidden;
+    transition: 1s;
+    position:relative;
+    &:hover {
+      background-color: #fff;
+      .backgroundImage__header {
+          padding-top: 2rem;
+          color: #333;
+          &::after{
+            margin:1rem auto;
+            background-color:#FF584C;
+            width: 120px;
+          }
+      }
+      .backgroundImage__description{
+        color: #333;
+        padding-top: 0rem;
+      }
+    }
 }
 
-@media(min-width: 557px)and (max-width: 1024px){
+@media (max-width: 1024px){
   .menu__center{
     font-size: 1.2rem;
     min-width: 80%;
+    text-align: left;
+    ul {
+      padding-left:2rem;
+    }
  }
  .menu__right {
    margin: 0 ;
@@ -205,9 +299,6 @@ h3{
 }
   .menu__left{
   display:none;
-  min-width: 0%;
-  margin: 0 ;
-  padding:0;
 }
 .social__icons{
     position:relative;
@@ -221,7 +312,6 @@ h3{
   &:last-child{
     right:45px;
   }
- }
  .skills_container{
    margin-left: 10px;
    margin-right: 10px;
@@ -231,18 +321,18 @@ h3{
    padding:0;
  }
 }
-@media(min-width: 320px) and (max-width: 556px){
+}
+.portfolio__list__item {
+    margin: 10px;
+}
+@media (max-width: 599px){
   .menu__center{
     font-size:0.8rem;
-    min-width: 80%;
     margin:0;
     padding:0;
-    min-width: 80%;
-    text-align: center;
 
-    ul{
-      margin:0;
-      padding:0;
+     ul{
+       padding-left:0.5rem;
       li{
         margin:0;
         margin-right: 5px;
@@ -250,39 +340,16 @@ h3{
       }
     }
   }
-  .menu__left{
-    display:none;
-    min-width: 0%;
+  .menu__list{
+    letter-spacing: 0;
   }
-  .menu__right{
-    min-width: 20%;
-    margin: 0 ;
-
-  }
-  .social__icons{
-      position:relative;
-      margin: 0 ;
-
-  }
+.social__icons:last-child {
+  margin:0;
+}
   .social{
-    position:absolute;
-    top:0px;
     right:5px;
     &:last-child{
       right:40px;
     }
-  }
-  .backgroundImage{
-    height: 180px;
-    width:250px;
-}
-.portfolio__list__item__overlay{
-    background-color: rgba(0,0,0,0.5);
-    height: 180px;
-    width:250px;
-  }
-  .skills__list{
-    margin: 0;
-    padding:0;
   }
 }

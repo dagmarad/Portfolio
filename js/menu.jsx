@@ -12,8 +12,7 @@ import {Router, Route, Link, IndexLink, IndexRoute, hashHistory} from 'react-rou
       return (
 
 
-     <div className="menu container container--mousemove">
-       <div className="menu__left"></div>
+
        <div className="menu container">
          <div className="menu__left" ></div>
           <div className="menu__center">
@@ -32,7 +31,6 @@ import {Router, Route, Link, IndexLink, IndexRoute, hashHistory} from 'react-rou
               </ul>
           </div>
         </div>
-      </div>
       )
       }
     }

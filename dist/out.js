@@ -4490,72 +4490,67 @@ var Menu = function (_React$Component) {
 
       return _react2.default.createElement(
         'div',
-        { className: 'menu container container--mousemove' },
+        { className: 'menu container' },
         _react2.default.createElement('div', { className: 'menu__left' }),
         _react2.default.createElement(
           'div',
-          { className: 'menu container' },
-          _react2.default.createElement('div', { className: 'menu__left' }),
+          { className: 'menu__center' },
           _react2.default.createElement(
-            'div',
-            { className: 'menu__center' },
+            'ul',
+            null,
             _react2.default.createElement(
-              'ul',
-              null,
+              'li',
+              { className: 'menu__list' },
               _react2.default.createElement(
-                'li',
-                { className: 'menu__list' },
-                _react2.default.createElement(
-                  _NavLink2.default,
-                  { to: '/home', activeClassName: 'active' },
-                  'HOME'
-                )
-              ),
+                _NavLink2.default,
+                { to: '/home', activeClassName: 'active' },
+                'HOME'
+              )
+            ),
+            _react2.default.createElement(
+              'li',
+              { className: 'menu__list' },
               _react2.default.createElement(
-                'li',
-                { className: 'menu__list' },
-                _react2.default.createElement(
-                  _NavLink2.default,
-                  { to: '/portfolio', activeClassName: 'active' },
-                  'PORTFOLIO'
-                )
-              ),
+                _NavLink2.default,
+                { to: '/portfolio', activeClassName: 'active' },
+                'PORTFOLIO'
+              )
+            ),
+            _react2.default.createElement(
+              'li',
+              { className: 'menu__list' },
               _react2.default.createElement(
-                'li',
-                { className: 'menu__list' },
-                _react2.default.createElement(
-                  _NavLink2.default,
-                  { to: '/skills', activeClassName: 'active' },
-                  'SKILLS'
-                )
-              ),
+                _NavLink2.default,
+                { to: '/skills', activeClassName: 'active' },
+                'SKILLS'
+              )
+            ),
+            _react2.default.createElement(
+              'li',
+              { className: 'menu__list' },
               _react2.default.createElement(
-                'li',
-                { className: 'menu__list' },
-                _react2.default.createElement(
-                  _NavLink2.default,
-                  { to: '/contact', activeClassName: 'active' },
-                  'CONTACT'
-                )
+                _NavLink2.default,
+                { to: '/contact', activeClassName: 'active' },
+                'CONTACT'
               )
             )
-          ),
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'menu__right' },
           _react2.default.createElement(
-            'div',
-            { className: 'menu__right' },
+            'ul',
+            { className: 'social__icons' },
             _react2.default.createElement(
-              'ul',
-              { className: 'social__icons' },
-              _react2.default.createElement(
-                'li',
-                { className: 'menu__list social' },
-                _react2.default.createElement(_reactSocialIcons.SocialIcon, { url: 'http://linkedin.com/in/dagmara-gruszczynska/', style: { height: 30, width: 30 }, color: '#FF584C' })
-              ),
-              _react2.default.createElement(
-                'li',
-                { className: 'menu__list social' },
-                _react2.default.createElement(_reactSocialIcons.SocialIcon, { url: 'http://github.com/dagmarad', style: { height: 30, width: 30 }, color: '#FF584C' })
-              )
+              'li',
+              { className: 'menu__list social' },
+              _react2.default.createElement(_reactSocialIcons.SocialIcon, { url: 'http://linkedin.com/in/dagmara-gruszczynska/', style: { height: 30, width: 30 }, color: '#FF584C' })
+            ),
+            _react2.default.createElement(
+              'li',
+              { className: 'menu__list social' },
+              _react2.default.createElement(_reactSocialIcons.SocialIcon, { url: 'http://github.com/dagmarad', style: { height: 30, width: 30 }, color: '#FF584C' })
             )
           )
         )
@@ -9406,16 +9401,19 @@ var Home = function (_React$Component) {
         _react2.default.createElement(
           'div',
           { className: 'home__invitation' },
-          _react2.default.createElement('canvas', { id: 'canvas-image-blending' }),
           _react2.default.createElement(
             'h3',
             null,
-            'Cze\u015B\u0107, mam na imi\u0119 Dagmara'
+            'Hi, my name is Dagmara'
           ),
           _react2.default.createElement(
             'p',
             null,
-            'Niedawno uko\u0144czy\u0142am dwumiesi\u0119czny kurs Front-end Developer w Coders Lab i teraz szukam pracy. Znam r\xF3\u017Cne fajne technologie. Z mojego portfolia dowiesz si\u0119, jakie s\u0105 moje projekty oraz jakie znam technologi\u0119'
+            _react2.default.createElement(
+              'strong',
+              null,
+              'I have finished front-end bootcamp course at Coders Lab and I\xA0want to start a career as Front-end developer. Here is my portfolio created with ReactJS. Check my sample projects.'
+            )
           )
         ),
         _react2.default.createElement(
@@ -14766,6 +14764,7 @@ document.addEventListener('DOMContentLoaded', function () {
         _createClass(App, [{
             key: 'componentDidMount',
             value: function componentDidMount() {
+
                 var granimInstance = new Granim({
                     element: '#canvas-image-blending',
                     direction: 'top-bottom',
@@ -14793,6 +14792,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     _react2.default.createElement(
                         'div',
                         null,
+                        _react2.default.createElement('canvas', { id: 'canvas-image-blending' }),
                         _react2.default.createElement(
                             _reactRouter.Router,
                             { history: _reactRouter.hashHistory },
@@ -15093,25 +15093,32 @@ var PortfolioItem = function (_React$Component) {
   _createClass(PortfolioItem, [{
     key: 'render',
     value: function render() {
-      var items = [{
-        title: 'Cat Shelter App',
+      var items = [{ title: "Sit on chair",
         img: './img/cat.jpg',
-        desc: 'Simple application in react '
+        desc: "Sample front page created with HTML, CSS, JS",
+        add: "http://dagmaragruszczynska.pl/sitonchair"
       }, { title: 'Wedding page',
         img: './img/background.gif',
-        desc: 'Responsive page with HTML, CSS, JS'
-      }, { title: "Javascript code example",
-        img: './img/code.jpg',
-        desc: "Slider, gallery, menu, to do list"
+        desc: 'Responsive page with HTML, CSS, JS',
+        add: "http://dagmaragruszczynska.pl/weddingpage"
       }, { title: "NASA API Challenge",
         img: './img/world.jpg',
-        desc: "Photogallery - Jquery & AJAX/REST"
+        desc: "Photogallery - Jquery & AJAX/REST",
+        add: "http://dagmaragruszczynska.pl/nasa"
       }, { title: "Daily expense app",
         img: './img/expense.png',
-        desc: "Application created in React"
-      }, { title: "Sit on chair",
+        desc: "Application created in React",
+        add: "http://dagmaragruszczynska.pl/dailyexpense"
+      }, { title: "Javascript code example",
+        img: './img/code.jpg',
+        desc: "Slider, gallery, menu, to do list",
+        add: "http://dagmaragruszczynska.pl/javascript"
+      }, {
+        title: 'Cat Shelter App',
         img: './img/cat.jpg',
-        desc: "Page created with HTML, CSS, JS"
+        desc: 'Simple application filters cat in react ',
+        add: "http://dagmaragruszczynska.pl/catshelter"
+
       }];
 
       var projects = items.map(function (elem, index) {
@@ -15128,13 +15135,14 @@ var PortfolioItem = function (_React$Component) {
                 'h4',
                 { className: 'backgroundImage__header' },
                 elem.title
-              )
+              ),
+              _react2.default.createElement(
+                'p',
+                { className: 'backgroundImage__description' },
+                elem.desc
+              ),
+              _react2.default.createElement('a', { href: elem.add, target: '_blank' })
             )
-          ),
-          _react2.default.createElement(
-            'p',
-            null,
-            elem.desc
           )
         );
       });
@@ -15227,7 +15235,7 @@ var Skills = function (_React$Component) {
                                                         ' ',
                                                         _icons2.default.html,
                                                         _react2.default.createElement(
-                                                                'h3',
+                                                                'h4',
                                                                 null,
                                                                 'HTML'
                                                         )
@@ -15237,7 +15245,7 @@ var Skills = function (_React$Component) {
                                                         { className: 'skills__list__item' },
                                                         _icons2.default.css,
                                                         _react2.default.createElement(
-                                                                'h3',
+                                                                'h4',
                                                                 null,
                                                                 'CSS'
                                                         )
@@ -15247,7 +15255,7 @@ var Skills = function (_React$Component) {
                                                         { className: 'skills__list__item' },
                                                         _icons2.default.sass,
                                                         _react2.default.createElement(
-                                                                'h3',
+                                                                'h4',
                                                                 null,
                                                                 'SASS'
                                                         )
@@ -15257,7 +15265,7 @@ var Skills = function (_React$Component) {
                                                         { className: 'skills__list__item' },
                                                         _icons2.default.javascript,
                                                         _react2.default.createElement(
-                                                                'h3',
+                                                                'h4',
                                                                 null,
                                                                 'Javascript'
                                                         )
@@ -15267,7 +15275,7 @@ var Skills = function (_React$Component) {
                                                         { className: 'skills__list__item' },
                                                         _icons2.default.jquery,
                                                         _react2.default.createElement(
-                                                                'h3',
+                                                                'h4',
                                                                 null,
                                                                 'Jquery'
                                                         )
@@ -15277,7 +15285,7 @@ var Skills = function (_React$Component) {
                                                         { className: 'skills__list__item' },
                                                         _icons2.default.es6,
                                                         _react2.default.createElement(
-                                                                'h3',
+                                                                'h4',
                                                                 null,
                                                                 'ECMASCRIPT6'
                                                         )
@@ -15287,7 +15295,7 @@ var Skills = function (_React$Component) {
                                                         { className: 'skills__list__item' },
                                                         _icons2.default.react,
                                                         _react2.default.createElement(
-                                                                'h3',
+                                                                'h4',
                                                                 null,
                                                                 'React'
                                                         )
@@ -15297,7 +15305,7 @@ var Skills = function (_React$Component) {
                                                         { className: 'skills__list__item' },
                                                         _icons2.default.webpack,
                                                         _react2.default.createElement(
-                                                                'h3',
+                                                                'h4',
                                                                 null,
                                                                 'Webpack'
                                                         )
@@ -15307,7 +15315,7 @@ var Skills = function (_React$Component) {
                                                         { className: 'skills__list__item' },
                                                         _icons2.default.github,
                                                         _react2.default.createElement(
-                                                                'h3',
+                                                                'h4',
                                                                 null,
                                                                 'GIT'
                                                         )

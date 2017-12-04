@@ -12,6 +12,7 @@ import { HashRouter} from "react-router-dom";
 document.addEventListener('DOMContentLoaded', () => {
  class App extends React.Component {
    componentDidMount() {
+
     var granimInstance = new Granim({
     element: '#canvas-image-blending',
     direction: 'top-bottom',
@@ -41,6 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <HashRouter>
 
           <div>
+            <canvas id="canvas-image-blending"></canvas>
         <Router history={hashHistory}>
         <Route path='/' component={View}/>
         <Route path='/home' component={Home}/>
