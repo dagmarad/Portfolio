@@ -17,6 +17,9 @@ body{
 
   width:100%;
 }
+a {
+  transition:0.3s;
+}
 ul {
   padding:0;
   margin:0;
@@ -52,6 +55,14 @@ section {
 .home__invitation, .portfolio__list, .skills_container {
   z-index: 2;
   animation: appear 1s ease-out;
+  svg{
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  a{
+    color:#fff;
+    text-decoration: none;
+  }
 }
 @keyframes appear {
   0% {
@@ -66,7 +77,6 @@ section {
 }
 
 
-
 .pointer{
   cursor: pointer;
   transform:rotate(90deg);
@@ -76,6 +86,9 @@ section {
     text-decoration:none;
     font-size:2rem;
     font-weight: bold;
+    &:hover{
+      color:#fff;
+    }
   }
 }
 .skills_container{
@@ -97,7 +110,7 @@ section {
 }
 h3{
   text-align: center;
-  font-size:1.5rem;
+  font-size:1.75rem;
   &::after{
     content:'';
     display:block;
@@ -169,20 +182,24 @@ h3{
     }
 
 .home__invitation{
-  max-width: 500px;
+  max-width: 520px;
   text-align:center;
   margin:auto;
   padding-left: 5px;
   padding-right: 5px;
   color:#fff;
 
+
   p, h3{
     margin:0;
     z-index:1;
     position:relative;
   }
-
+p{
+  margin-bottom:0.5rem;
 }
+}
+
 #canvas-image-blending {
     position: fixed;
     display: block;
@@ -283,7 +300,6 @@ h3{
 
 @media (max-width: 1024px){
   .menu__center{
-    font-size: 1.2rem;
     min-width: 80%;
     text-align: left;
     ul {
@@ -327,17 +343,12 @@ h3{
 }
 @media (max-width: 599px){
   .menu__center{
-    font-size:0.8rem;
     margin:0;
     padding:0;
-
-     ul{
-       padding-left:0.5rem;
       li{
         margin:0;
-        margin-right: 5px;
+        margin-right: 10px;
         padding:0;
-      }
     }
   }
   .menu__list{
@@ -352,4 +363,25 @@ h3{
       right:40px;
     }
   }
+}
+@media (max-width: 479px){
+  .menu__center{
+font-size:0.9rem;
+     ul{
+       padding-left:0.5rem;
+      li{
+        margin:0;
+        margin-right: 5px;
+        padding:0;
+      }
+    }
+  }
+  .menu__list{
+    letter-spacing: 0;
+  }
+}
+@media (max-width: 359px){
+  .menu__center{
+font-size:0.75rem;
+ }
 }

@@ -11,8 +11,8 @@ import Menu from './menu.jsx';
           <div className="home__invitation">
             <h3>Contact</h3>
             <p>Would you like to contact me?</p>
-            <p>{icons.phone} Please call me at 609094679 </p>
-            <p>{icons.message} Send e-mail at gruszczynska.dagmara@gmail.com</p>
+            <p><a href ="tel:48609094679">{icons.phone} Please call me at 609094679</a></p>
+            <p><a href ="mailto:gruszczynska.dagmara@gmail.com">{icons.message} gruszczynska.dagmara@gmail.com</a></p>
           </div>
           <div className="pointer less-than"><a href="#home">&lt;</a></div>
         </section>)

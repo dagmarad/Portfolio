@@ -6018,13 +6018,13 @@ var icons = {
 
   message: _react2.default.createElement(
     'svg',
-    { xmlns: 'http://www.w3.org/2000/svg', width: '28', height: '28', viewBox: '0 0 28 28', 'data-code': '61664', 'data-tags': 'envelope' },
-    _react2.default.createElement('path', { d: 'M28 11.1v12.4c0 1.37-1.13 2.5-2.5 2.5h-23C1.12 26 0 24.87 0 23.5V11.1c.47.5 1 .96 1.58 1.35 2.6 1.77 5.22 3.53 7.76 5.4 1.32.96 2.94 2.15 4.64 2.15h.04c1.7 0 3.32-1.2 4.64-2.16 2.54-1.84 5.17-3.62 7.78-5.4.56-.38 1.1-.83 1.56-1.35zm0-4.6c0 1.75-1.3 3.33-2.67 4.28-2.44 1.7-4.9 3.38-7.3 5.08-1.03.7-2.75 2.14-4 2.14h-.05c-1.26 0-2.98-1.44-4-2.14-2.42-1.7-4.87-3.4-7.3-5.08C1.6 10.03 0 8.28 0 6.84 0 5.3.83 4 2.5 4h23C26.86 4 28 5.12 28 6.5z', fill: '#444' })
+    { xmlns: 'http://www.w3.org/2000/svg', width: '18', height: '20', viewBox: '0 0 28 28', 'data-code': '61664', 'data-tags': 'envelope' },
+    _react2.default.createElement('path', { d: 'M28 11.1v12.4c0 1.37-1.13 2.5-2.5 2.5h-23C1.12 26 0 24.87 0 23.5V11.1c.47.5 1 .96 1.58 1.35 2.6 1.77 5.22 3.53 7.76 5.4 1.32.96 2.94 2.15 4.64 2.15h.04c1.7 0 3.32-1.2 4.64-2.16 2.54-1.84 5.17-3.62 7.78-5.4.56-.38 1.1-.83 1.56-1.35zm0-4.6c0 1.75-1.3 3.33-2.67 4.28-2.44 1.7-4.9 3.38-7.3 5.08-1.03.7-2.75 2.14-4 2.14h-.05c-1.26 0-2.98-1.44-4-2.14-2.42-1.7-4.87-3.4-7.3-5.08C1.6 10.03 0 8.28 0 6.84 0 5.3.83 4 2.5 4h23C26.86 4 28 5.12 28 6.5z', fill: '#fff' })
   ),
   phone: _react2.default.createElement(
     'svg',
-    { xmlns: 'http://www.w3.org/2000/svg', width: '22', height: '28', viewBox: '0 0 22 28', 'data-code': '61589', 'data-tags': 'phone' },
-    _react2.default.createElement('path', { d: 'M22 19.37c0 .57-.25 1.66-.48 2.18-.33.76-1.2 1.26-1.9 1.65-.93.5-1.87.8-2.92.8-1.45 0-2.76-.6-4.1-1.08-.94-.34-1.87-.76-2.72-1.3-2.66-1.64-5.86-4.84-7.5-7.5-.54-.85-.96-1.78-1.3-2.73C.58 10.03 0 8.72 0 7.3c0-1.05.3-2 .8-2.9.4-.7.9-1.6 1.65-1.92.52-.23 1.6-.48 2.17-.48.1 0 .22 0 .33.05.33.1.67.87.83 1.18l1.5 2.68c.25.4.72.9.72 1.4 0 .97-2.83 2.36-2.83 3.2 0 .43.4.97.6 1.35 1.6 2.84 3.56 4.8 6.4 6.4.38.2.92.6 1.35.6.84 0 2.23-2.83 3.18-2.83.5 0 1 .48 1.4.73l2.67 1.5c.3.15 1.07.5 1.18.83.05.1.05.22.05.32z', fill: '#444' })
+    { xmlns: 'http://www.w3.org/2000/svg', width: '18', height: '20', viewBox: '0 0 22 28', 'data-code': '61589', 'data-tags': 'phone' },
+    _react2.default.createElement('path', { d: 'M22 19.37c0 .57-.25 1.66-.48 2.18-.33.76-1.2 1.26-1.9 1.65-.93.5-1.87.8-2.92.8-1.45 0-2.76-.6-4.1-1.08-.94-.34-1.87-.76-2.72-1.3-2.66-1.64-5.86-4.84-7.5-7.5-.54-.85-.96-1.78-1.3-2.73C.58 10.03 0 8.72 0 7.3c0-1.05.3-2 .8-2.9.4-.7.9-1.6 1.65-1.92.52-.23 1.6-.48 2.17-.48.1 0 .22 0 .33.05.33.1.67.87.83 1.18l1.5 2.68c.25.4.72.9.72 1.4 0 .97-2.83 2.36-2.83 3.2 0 .43.4.97.6 1.35 1.6 2.84 3.56 4.8 6.4 6.4.38.2.92.6 1.35.6.84 0 2.23-2.83 3.18-2.83.5 0 1 .48 1.4.73l2.67 1.5c.3.15 1.07.5 1.18.83.05.1.05.22.05.32z', fill: '#fff' })
   ),
   github: _react2.default.createElement(
     'svg',
@@ -14882,14 +14882,22 @@ var Contact = function (_React$Component) {
           _react2.default.createElement(
             'p',
             null,
-            _icons2.default.phone,
-            ' Please call me at 609094679 '
+            _react2.default.createElement(
+              'a',
+              { href: 'tel:48609094679' },
+              _icons2.default.phone,
+              ' Please call me at 609094679'
+            )
           ),
           _react2.default.createElement(
             'p',
             null,
-            _icons2.default.message,
-            ' Send e-mail at gruszczynska.dagmara@gmail.com'
+            _react2.default.createElement(
+              'a',
+              { href: 'mailto:gruszczynska.dagmara@gmail.com' },
+              _icons2.default.message,
+              ' gruszczynska.dagmara@gmail.com'
+            )
           )
         ),
         _react2.default.createElement(
@@ -15094,29 +15102,29 @@ var PortfolioItem = function (_React$Component) {
     key: 'render',
     value: function render() {
       var items = [{ title: "Sit on chair",
-        img: './img/cat.jpg',
-        desc: "Sample front page created with HTML, CSS, JS",
+        img: './img/chair.jpg',
+        desc: "Sample single page website created with HTML, CSS, JS.",
         add: "http://dagmaragruszczynska.pl/sitonchair"
       }, { title: 'Wedding page',
-        img: './img/background.gif',
-        desc: 'Responsive page with HTML, CSS, JS',
+        img: './img/wedding.jpg',
+        desc: 'Responsive website created with HTML, CSS, JS. Check my JS counter!',
         add: "http://dagmaragruszczynska.pl/weddingpage"
       }, { title: "NASA API Challenge",
         img: './img/world.jpg',
-        desc: "Photogallery - Jquery & AJAX/REST",
+        desc: "Dynamically generated slider with randomly chosen images provided with JSON API. I used HTML, CSS, jQuery.",
         add: "http://dagmaragruszczynska.pl/nasa"
       }, { title: "Daily expense app",
-        img: './img/expense.png',
-        desc: "Application created in React",
+        img: './img/expense.jpg',
+        desc: "Application created in React, in which you can chceck your daily expenses. I used HTML, Bootstrap, ReactJS.",
         add: "http://dagmaragruszczynska.pl/dailyexpense"
-      }, { title: "Javascript code example",
+      }, { title: "JavaScript component examples",
         img: './img/code.jpg',
-        desc: "Slider, gallery, menu, to do list",
+        desc: "Simple elements created in Javascript: slider, menu, gallery, tooltip.",
         add: "http://dagmaragruszczynska.pl/javascript"
       }, {
         title: 'Cat Shelter App',
         img: './img/cat.jpg',
-        desc: 'Simple application filters cat in react ',
+        desc: 'My first, very simple application in React. Find your favorite cat with filter function. ',
         add: "http://dagmaragruszczynska.pl/catshelter"
 
       }];
@@ -15168,7 +15176,7 @@ exports.default = PortfolioItem;
 
 
 Object.defineProperty(exports, "__esModule", {
-        value: true
+  value: true
 });
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -15198,144 +15206,144 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var Skills = function (_React$Component) {
-        _inherits(Skills, _React$Component);
+  _inherits(Skills, _React$Component);
 
-        function Skills() {
-                _classCallCheck(this, Skills);
+  function Skills() {
+    _classCallCheck(this, Skills);
 
-                return _possibleConstructorReturn(this, (Skills.__proto__ || Object.getPrototypeOf(Skills)).apply(this, arguments));
-        }
+    return _possibleConstructorReturn(this, (Skills.__proto__ || Object.getPrototypeOf(Skills)).apply(this, arguments));
+  }
 
-        _createClass(Skills, [{
-                key: 'render',
-                value: function render() {
-                        return _react2.default.createElement(
-                                'section',
-                                { id: 'skills', className: 'container' },
-                                _react2.default.createElement(_menu2.default, null),
-                                _react2.default.createElement(
-                                        'div',
-                                        { className: 'skills_container' },
-                                        _react2.default.createElement(
-                                                'h3',
-                                                null,
-                                                ' Moje umiej\u0119tno\u015Bci'
-                                        ),
-                                        _react2.default.createElement(
-                                                'p',
-                                                null,
-                                                'Potrafi\u0119 pisa\u0107 fajny i weso\u0142y kod. U\u017Cywam Webpacka i Gulpa, korzystam z Sassa. Jak renderuje to tylko w Reakcie. Ca\u0142a ta strona jest w Reakcie bo bardzo go lubi\u0119. Chcia\u0142abym pracowa\u0107 z reactem, bo przekazywanie props\xF3w od dzieci do rodzic\xF3w to moje hobby. Poza tym lubi\u0119 p\u0119tle w Javascripcie. Najbardziej te podw\xF3jne. Jak mi si\u0119 nie chc\u0119 to u\u017Cywam Jquery bo jest szybciej, ale nic nie odaje przyjemno\u015Bci jakiej czuj\u0119, kiedy pisze document query selector'
-                                        ),
-                                        _react2.default.createElement(
-                                                'ul',
-                                                { className: 'skills__list' },
-                                                _react2.default.createElement(
-                                                        'li',
-                                                        { className: 'skills__list__item' },
-                                                        ' ',
-                                                        _icons2.default.html,
-                                                        _react2.default.createElement(
-                                                                'h4',
-                                                                null,
-                                                                'HTML'
-                                                        )
-                                                ),
-                                                _react2.default.createElement(
-                                                        'li',
-                                                        { className: 'skills__list__item' },
-                                                        _icons2.default.css,
-                                                        _react2.default.createElement(
-                                                                'h4',
-                                                                null,
-                                                                'CSS'
-                                                        )
-                                                ),
-                                                _react2.default.createElement(
-                                                        'li',
-                                                        { className: 'skills__list__item' },
-                                                        _icons2.default.sass,
-                                                        _react2.default.createElement(
-                                                                'h4',
-                                                                null,
-                                                                'SASS'
-                                                        )
-                                                ),
-                                                _react2.default.createElement(
-                                                        'li',
-                                                        { className: 'skills__list__item' },
-                                                        _icons2.default.javascript,
-                                                        _react2.default.createElement(
-                                                                'h4',
-                                                                null,
-                                                                'Javascript'
-                                                        )
-                                                ),
-                                                _react2.default.createElement(
-                                                        'li',
-                                                        { className: 'skills__list__item' },
-                                                        _icons2.default.jquery,
-                                                        _react2.default.createElement(
-                                                                'h4',
-                                                                null,
-                                                                'Jquery'
-                                                        )
-                                                ),
-                                                _react2.default.createElement(
-                                                        'li',
-                                                        { className: 'skills__list__item' },
-                                                        _icons2.default.es6,
-                                                        _react2.default.createElement(
-                                                                'h4',
-                                                                null,
-                                                                'ECMASCRIPT6'
-                                                        )
-                                                ),
-                                                _react2.default.createElement(
-                                                        'li',
-                                                        { className: 'skills__list__item' },
-                                                        _icons2.default.react,
-                                                        _react2.default.createElement(
-                                                                'h4',
-                                                                null,
-                                                                'React'
-                                                        )
-                                                ),
-                                                _react2.default.createElement(
-                                                        'li',
-                                                        { className: 'skills__list__item' },
-                                                        _icons2.default.webpack,
-                                                        _react2.default.createElement(
-                                                                'h4',
-                                                                null,
-                                                                'Webpack'
-                                                        )
-                                                ),
-                                                _react2.default.createElement(
-                                                        'li',
-                                                        { className: 'skills__list__item' },
-                                                        _icons2.default.github,
-                                                        _react2.default.createElement(
-                                                                'h4',
-                                                                null,
-                                                                'GIT'
-                                                        )
-                                                )
-                                        )
-                                ),
-                                _react2.default.createElement(
-                                        'div',
-                                        { className: 'pointer' },
-                                        _react2.default.createElement(
-                                                'a',
-                                                { href: '#contact' },
-                                                '>'
-                                        )
-                                )
-                        );
-                }
-        }]);
+  _createClass(Skills, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'section',
+        { id: 'skills', className: 'container' },
+        _react2.default.createElement(_menu2.default, null),
+        _react2.default.createElement(
+          'div',
+          { className: 'skills_container' },
+          _react2.default.createElement(
+            'h3',
+            null,
+            ' My skills'
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            'I am able to work with HTML5 and CSS3 with SASS preprocessor. I know how to make responisve website, write code in JavaScript and jQuery, also I can create components in ReactJs.'
+          ),
+          _react2.default.createElement(
+            'ul',
+            { className: 'skills__list' },
+            _react2.default.createElement(
+              'li',
+              { className: 'skills__list__item' },
+              ' ',
+              _icons2.default.html,
+              _react2.default.createElement(
+                'h4',
+                null,
+                'HTML'
+              )
+            ),
+            _react2.default.createElement(
+              'li',
+              { className: 'skills__list__item' },
+              _icons2.default.css,
+              _react2.default.createElement(
+                'h4',
+                null,
+                'CSS'
+              )
+            ),
+            _react2.default.createElement(
+              'li',
+              { className: 'skills__list__item' },
+              _icons2.default.sass,
+              _react2.default.createElement(
+                'h4',
+                null,
+                'SASS'
+              )
+            ),
+            _react2.default.createElement(
+              'li',
+              { className: 'skills__list__item' },
+              _icons2.default.javascript,
+              _react2.default.createElement(
+                'h4',
+                null,
+                'Javascript'
+              )
+            ),
+            _react2.default.createElement(
+              'li',
+              { className: 'skills__list__item' },
+              _icons2.default.jquery,
+              _react2.default.createElement(
+                'h4',
+                null,
+                'Jquery'
+              )
+            ),
+            _react2.default.createElement(
+              'li',
+              { className: 'skills__list__item' },
+              _icons2.default.es6,
+              _react2.default.createElement(
+                'h4',
+                null,
+                'ECMASCRIPT6'
+              )
+            ),
+            _react2.default.createElement(
+              'li',
+              { className: 'skills__list__item' },
+              _icons2.default.react,
+              _react2.default.createElement(
+                'h4',
+                null,
+                'React'
+              )
+            ),
+            _react2.default.createElement(
+              'li',
+              { className: 'skills__list__item' },
+              _icons2.default.webpack,
+              _react2.default.createElement(
+                'h4',
+                null,
+                'Webpack'
+              )
+            ),
+            _react2.default.createElement(
+              'li',
+              { className: 'skills__list__item' },
+              _icons2.default.github,
+              _react2.default.createElement(
+                'h4',
+                null,
+                'GIT'
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'pointer' },
+          _react2.default.createElement(
+            'a',
+            { href: '#contact' },
+            '>'
+          )
+        )
+      );
+    }
+  }]);
 
-        return Skills;
+  return Skills;
 }(_react2.default.Component);
 
 exports.default = Skills;

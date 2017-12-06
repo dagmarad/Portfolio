@@ -8,35 +8,35 @@ class PortfolioItem extends React.Component{
   render(){
     const items = [
       {title: "Sit on chair",
-        img: './img/cat.jpg',
-      desc: "Sample front page created with HTML, CSS, JS",
+        img: './img/chair.jpg',
+      desc: "Sample single page website created with HTML, CSS, JS.",
       add:"http://dagmaragruszczynska.pl/sitonchair"
       },
 
     {title: 'Wedding page',
-      img: './img/background.gif',
-      desc:'Responsive page with HTML, CSS, JS',
+      img: './img/wedding.jpg',
+      desc:'Responsive website created with HTML, CSS, JS. Check my JS counter!',
       add:"http://dagmaragruszczynska.pl/weddingpage"
     },
     {title: "NASA API Challenge",
       img: './img/world.jpg',
-    desc: "Photogallery - Jquery & AJAX/REST",
+    desc: "Dynamically generated slider with randomly chosen images provided with JSON API. I used HTML, CSS, jQuery.",
     add:"http://dagmaragruszczynska.pl/nasa"
     },
     {title: "Daily expense app",
-      img: './img/expense.png',
-    desc: "Application created in React",
+      img: './img/expense.jpg',
+    desc: "Application created in React, in which you can chceck your daily expenses. I used HTML, Bootstrap, ReactJS.",
     add:"http://dagmaragruszczynska.pl/dailyexpense"
     },
-    {title: "Javascript code example",
+    {title: "JavaScript component examples",
     img: './img/code.jpg',
-    desc: "Slider, gallery, menu, to do list",
+    desc: "Simple elements created in Javascript: slider, menu, gallery, tooltip.",
     add:"http://dagmaragruszczynska.pl/javascript"
     },
     {
     title: 'Cat Shelter App',
     img: './img/cat.jpg',
-    desc:'Simple application filters cat in react ',
+    desc:'My first, very simple application in React. Find your favorite cat with filter function. ',
     add:"http://dagmaragruszczynska.pl/catshelter"
 
     },
