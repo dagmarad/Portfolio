@@ -54,7 +54,7 @@ const projects = items.map( (elem,index) =>{
   <div className="backgroundImage" style = {{backgroundImage: `url(${elem.img})`}}><div className="portfolio__list__item__overlay">
   <h4 className="backgroundImage__header">{elem.title}</h4><p className="backgroundImage__description">{elem.desc}</p>
   <a className="portfolio__list__link" href={elem.add} target="_blank"></a><span className="portfolio__list__container">
-    <a className="portfolio__list__github" href={elem.github} target="_blank">Github source
+    <a className="portfolio__list__github" href={elem.github} target="_blank">Github source 
     {icons.github}</a></span>
   </div></div></li>);
 });

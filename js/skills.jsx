@@ -25,7 +25,7 @@ class Skills extends React.Component{
         <li className="skills__list__item">{icons.react}<h4>React</h4></li>
 
         <li className="skills__list__item">{icons.webpack}<h4>Webpack</h4></li>
-        <li className="skills__list__item">{icons.github}<h4>GIT</h4></li>
+        <li className="skills__list__item">{icons.github1}<h4>GIT</h4></li>
       </ul>
       </div>
       <div className="pointer"><a href="#contact">&gt;</a></div>
