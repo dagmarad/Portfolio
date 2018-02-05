@@ -8,13 +8,20 @@ class PortfolioItem extends React.Component{
 
   render(){
     const items = [
+      {
+      title: 'Architektura wina',
+      img: './img/winnica.jpg',
+      desc:'Company page created in WordPress. I customize the appearance, edited the template ',
+      add:"http://architekturawina.pl",
+      github:'https://github.com/dagmarad/Architektura-wina'
+
+      },
       {title: "Sit on chair",
         img: './img/chair.jpg',
       desc: "Sample single page website created with HTML, CSS, JS.",
       add:"http://dagmaragruszczynska.pl/sitonchair",
       github:"https://github.com/dagmarad/Sit_on_chair_website"
       },
-
     {title: 'Wedding page',
       img: './img/wedding.jpg',
       desc:'Responsive website created with HTML, CSS, JS. Check my JS counter!',
@@ -39,14 +46,6 @@ class PortfolioItem extends React.Component{
     add:"http://dagmaragruszczynska.pl/javascript",
     github:'https://github.com/dagmarad/JavaScript-Component-Example'
     },
-    {
-    title: 'Cat Shelter App',
-    img: './img/cat.jpg',
-    desc:'My first, very simple application in React. Find your favorite cat with filter function. ',
-    add:"http://dagmaragruszczynska.pl/catshelter",
-    github:'https://github.com/dagmarad/Cat-shelter-app'
-
-    },
     ];
 
 const projects = items.map( (elem,index) =>{
@@ -54,7 +53,7 @@ const projects = items.map( (elem,index) =>{
   <div className="backgroundImage" style = {{backgroundImage: `url(${elem.img})`}}><div className="portfolio__list__item__overlay">
   <h4 className="backgroundImage__header">{elem.title}</h4><p className="backgroundImage__description">{elem.desc}</p>
   <a className="portfolio__list__link" href={elem.add} target="_blank"></a><span className="portfolio__list__container">
-    <a className="portfolio__list__github" href={elem.github} target="_blank">Github source 
+    <a className="portfolio__list__github" href={elem.github} target="_blank">Github source
     {icons.github}</a></span>
   </div></div></li>);
 });
