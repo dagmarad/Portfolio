@@ -9417,7 +9417,7 @@ var Home = function (_React$Component) {
             _react2.default.createElement(
               'strong',
               null,
-              'I have finished front-end bootcamp course at Coders Lab and I\xA0want to start a career as Front-end developer. Here is my portfolio created with ReactJS. Check my sample projects.'
+              'I am junior front-end developer. I have finished front-end bootcamp course at Coders Lab. Here is my portfolio created with ReactJS. Check my sample projects.'
             )
           )
         ),

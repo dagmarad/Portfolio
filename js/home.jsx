@@ -12,7 +12,7 @@ import Menu from './menu.jsx';
         <div className="home__invitation">
 
           <h3>Hi, my name is Dagmara</h3>
-          <p><strong>I have finished front-end bootcamp course at Coders Lab and I&nbsp;want to start a career as Front-end developer.
+          <p><strong>I am junior front-end developer. I have finished front-end bootcamp course at Coders Lab.
             Here is my portfolio created with ReactJS. Check my sample projects.</strong>
           </p>
         </div>
