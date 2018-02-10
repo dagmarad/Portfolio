@@ -14773,16 +14773,16 @@ document.addEventListener('DOMContentLoaded', function () {
                 var granimInstance = new Granim({
                     element: '#canvas-image-blending',
                     direction: 'top-bottom',
-                    opacity: [1, 1],
+                    opacity: [.5, .5],
                     isPausedWhenNotInView: true,
                     image: {
-                        source: './img/computer.jpg',
+                        source: './img/fotoDesktop.jpg',
                         blendingMode: 'multiply',
                         stretchMode: ['stretch-if-smaller', 'stretch-if-smaller']
                     },
                     states: {
                         "default-state": {
-                            gradients: [['#29323c', '#485563'], ['#FF6B6B', '#556270'], ['#80d3fe', '#7ea0c4'], ['#f0ab51', '#eceba3']],
+                            gradients: [['#c9c9c9', '#e3e3e3'], ['#9ad3de', '#89bdd3'], ['#c9c9c9', '#e3e3e3'], ['#9ad3de', '#89bdd3']],
                             transitionSpeed: 7000
                         }
                     }
