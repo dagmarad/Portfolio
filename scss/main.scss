@@ -82,12 +82,12 @@ section {
   transform:rotate(90deg);
   z-index:3;
   a{
-    color:$font-color;
+    color:$secondary-color;
     text-decoration:none;
     font-size:2rem;
     font-weight: bold;
     &:hover{
-      color:#fff;
+      color:$font-color;
     }
   }
 }
@@ -137,9 +137,9 @@ h3{
     a{
       text-decoration:none;
       display:block;
-      color:red;
+      color:$font-color;
       &:hover, &.active{
-        color:#000;
+        color:$secondary-color;
       }
     }
   }
@@ -275,7 +275,7 @@ p{
   width:300px;
   height:35px;
   position:absolute;
-  background-color: #ddd;
+  background-color: #c9c9c9;
   bottom:-100px;
   line-height:2rem;
 
@@ -292,7 +292,7 @@ p{
   color: $font-color;
 }
 .portfolio__list__item__overlay{
-    background-color: rgba(201, 201, 201, 0.8);
+    background-color: rgba(137, 189, 211, 0.8);
     height: 200px;
     width:300px;
     border-radius: 6px;
